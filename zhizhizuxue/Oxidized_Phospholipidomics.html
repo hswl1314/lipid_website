@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="FHM">
+<meta name="dcterms.date" content="2024-08-19">
 
-<title>转录组上游分析 – Lipid Website</title>
+<title>Oxidized Phospholipidomics – Lipid Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,61 +22,29 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../zhizhizuxue/yanghau/Untargeted_metabolomics.html" rel="next">
+<link href="../Oxylipins.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -114,7 +84,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Lipid Website</span>
     </a>
   </div>
@@ -125,7 +95,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -134,15 +104,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-lipid-method">    
         <li>
-    <a class="dropdown-item" href="./Oxylipins.html">
+    <a class="dropdown-item" href="../Oxylipins.html">
  <span class="dropdown-text">Oxylipins</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./zhizhizuxue/Oxidized_Phospholipidomics.html">
+    <a class="dropdown-item" href="../zhizhizuxue/Oxidized_Phospholipidomics.html">
  <span class="dropdown-text">Oxidized Phospholipidomics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./zhizhizuxue/yanghau/Untargeted_metabolomics.html">
+    <a class="dropdown-item" href="../zhizhizuxue/yanghau/Untargeted_metabolomics.html">
  <span class="dropdown-text">Untargeted metabolomics</span></a>
   </li>  
     </ul>
@@ -153,13 +123,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
         <li>
-    <a class="dropdown-item" href="./pre-data.html">
+    <a class="dropdown-item" href="../pre-data.html">
  <span class="dropdown-text">pre-data</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -179,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">转录组上游分析</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../zhizhizuxue/Oxidized_Phospholipidomics.html">U3000</a></li><li class="breadcrumb-item"><a href="../zhizhizuxue/Oxidized_Phospholipidomics.html">氧化磷脂</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -219,7 +189,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Oxylipins.html" class="sidebar-item-text sidebar-link">
+  <a href="../Oxylipins.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">氧化脂肪酸-7500</span></a>
   </div>
 </li>
@@ -234,13 +204,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./zhizhizuxue/Oxidized_Phospholipidomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../zhizhizuxue/Oxidized_Phospholipidomics.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">氧化磷脂</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./zhizhizuxue/yanghau/Untargeted_metabolomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../zhizhizuxue/yanghau/Untargeted_metabolomics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">非靶向代谢</span></a>
   </div>
 </li>
@@ -256,27 +226,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#运行fastqc" id="toc-运行fastqc" class="nav-link active" data-scroll-target="#运行fastqc">运行Fastqc</a></li>
-  <li><a href="#运行trim_galord" id="toc-运行trim_galord" class="nav-link" data-scroll-target="#运行trim_galord">运行Trim_galord</a></li>
-  <li><a href="#运行hisat2" id="toc-运行hisat2" class="nav-link" data-scroll-target="#运行hisat2">运行Hisat2</a></li>
-  <li><a href="#运行下面代码获得counts.txt文件" id="toc-运行下面代码获得counts.txt文件" class="nav-link" data-scroll-target="#运行下面代码获得counts.txt文件">运行下面代码获得<strong>counts.txt</strong>文件</a></li>
+  <li><a href="#提取" id="toc-提取" class="nav-link active" data-scroll-target="#提取"><strong>提取</strong></a>
+  <ul class="collapse">
+  <li><a href="#血浆或血清" id="toc-血浆或血清" class="nav-link" data-scroll-target="#血浆或血清">1.血浆或血清</a></li>
+  <li><a href="#培养的细胞" id="toc-培养的细胞" class="nav-link" data-scroll-target="#培养的细胞">2.培养的细胞</a></li>
+  <li><a href="#动物组织样本" id="toc-动物组织样本" class="nav-link" data-scroll-target="#动物组织样本">3.动物组织样本</a></li>
+  </ul></li>
+  <li><a href="#定磷" id="toc-定磷" class="nav-link" data-scroll-target="#定磷">定磷</a>
+  <ul class="collapse">
+  <li><a href="#试剂" id="toc-试剂" class="nav-link" data-scroll-target="#试剂"><strong>1.试剂</strong></a></li>
+  <li><a href="#原理" id="toc-原理" class="nav-link" data-scroll-target="#原理"><strong>2.原理</strong></a></li>
+  <li><a href="#步骤" id="toc-步骤" class="nav-link" data-scroll-target="#步骤"><strong>3.步骤</strong></a></li>
+  </ul></li>
+  <li><a href="#制样" id="toc-制样" class="nav-link" data-scroll-target="#制样">制样</a></li>
+  <li><a href="#氧化磷脂组学液质条件" id="toc-氧化磷脂组学液质条件" class="nav-link" data-scroll-target="#氧化磷脂组学液质条件">氧化磷脂组学液质条件</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../zhizhizuxue/Oxidized_Phospholipidomics.html">U3000</a></li><li class="breadcrumb-item"><a href="../zhizhizuxue/Oxidized_Phospholipidomics.html">氧化磷脂</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">转录组上游分析</h1>
+<h1 class="title">Oxidized Phospholipidomics</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>FHM </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 19, 2024</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">August 23, 2024</p>
+    </div>
+  </div>
     
   </div>
   
@@ -285,94 +283,358 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="运行fastqc" class="level2">
-<h2 class="anchored" data-anchor-id="运行fastqc">运行Fastqc</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>nohup .<span class="op">/</span>fastqc.sh <span class="op">&gt;</span>fastqc.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="op">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<blockquote class="blockquote">
-<p>运行前检查脚本权限是否开通——chmod +x *.sh<br>
-文件格式记得检查修改(fastq.gz;fq.gz)</p>
-</blockquote>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cd .<span class="op">/</span>raw_data</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>mkdir <span class="op">-</span>p ..<span class="op">/</span>fastqc_results</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> <span class="op">*</span>_1.fq.gz </span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>do</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    base_name<span class="op">=</span>$(echo $file <span class="op">|</span> sed <span class="st">'s/_1.fq.gz//'</span>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    file2<span class="op">=</span>${base_name}_2.fq.gz</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> [ <span class="op">-</span>e <span class="st">"$file2"</span> ]<span class="op">;</span> then</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        echo <span class="st">"Running fastqc on $file and $file2 with 10 threads..."</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        fastqc <span class="op">-</span>t <span class="dv">10</span> <span class="op">-</span>o ..<span class="op">/</span>fastqc_results $file $file2 </span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> echo <span class="st">"Matching file for $file not found."</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    fi </span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>done </span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>echo <span class="st">"FastQC analysis is complete."</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="提取" class="level2">
+<h2 class="anchored" data-anchor-id="提取"><strong>提取</strong></h2>
+<section id="血浆或血清" class="level3">
+<h3 class="anchored" data-anchor-id="血浆或血清">1.血浆或血清</h3>
+<ol type="1">
+<li><p><strong>100 μL血浆/血清</strong> + <strong>300 μL H<sub>2</sub>O+960 μL MTBE/MeOH（5:1；v/v）</strong>（15:0 PE母液浓度为20 μM。若复溶体积为100 μL，则加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE）。</p></li>
+<li><p>涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE进行再萃取<br>
+</p></li>
+<li><p>第二步共<strong>重复3次</strong>，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干<br>
+</p></li>
+<li><p>重组：100 μL MeOH复溶</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>复溶的量根据自己实验需求决定</strong></p>
+</div>
+</div>
 </section>
-<section id="运行trim_galord" class="level2">
-<h2 class="anchored" data-anchor-id="运行trim_galord">运行Trim_galord</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>nohup .<span class="op">/</span>trim_galore.sh <span class="op">&gt;</span>trim_galore.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="op">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<blockquote class="blockquote">
-<p>文件格式记得检查修改(fastq.gz;fq.gz)</p>
-</blockquote>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>cd .<span class="op">/</span>raw_data</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>output_dir<span class="op">=</span><span class="st">"../trimmed"</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> [ <span class="op">!</span> <span class="op">-</span>d <span class="st">"$output_dir"</span> ]<span class="op">;</span> then </span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  mkdir <span class="op">-</span>p <span class="st">"$output_dir"</span> </span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>fi</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> <span class="op">*</span>_1.fq.gz </span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>do </span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  base<span class="op">=</span>$(basename $file _1.fq.gz)</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  file1<span class="op">=</span>${base}_1.fq.gz </span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  file2<span class="op">=</span>${base}_2.fq.gz </span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> [ <span class="op">-</span>f <span class="st">"$file2"</span> ]<span class="op">;</span> then </span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    echo <span class="st">"Processing $file1 and $file2 with trim_galore..."</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    trim_galore  <span class="op">-</span>q <span class="dv">20</span> <span class="op">--</span>phred33 <span class="op">--</span>stringency <span class="dv">3</span> <span class="op">--</span>length <span class="dv">20</span> <span class="op">-</span>e <span class="fl">0.1</span> <span class="op">-</span>o $output_dir <span class="op">--</span>paired $file1 $file2 </span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    echo <span class="st">"Paired file for $file1 not found."</span> </span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  fi </span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>done</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="培养的细胞" class="level3">
+<h3 class="anchored" data-anchor-id="培养的细胞">2.培养的细胞</h3>
+<ol type="1">
+<li><p>将细胞（<strong>5*106个细胞/样品</strong>）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次<br>
+</p></li>
+<li><p>在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度<br>
+</p></li>
+<li><p>向样品中加入960 μL MTBE/MeOH（5:1；v/v）<br>
+</p></li>
+<li><p>涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚<br>
+</p></li>
+<li><p>重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干<br>
+</p></li>
+<li><p>重组：100 μL MeOH</p></li>
+</ol>
 </section>
-<section id="运行hisat2" class="level2">
-<h2 class="anchored" data-anchor-id="运行hisat2">运行Hisat2</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>nohup .<span class="op">/</span>hisat2.sh <span class="op">&gt;</span>hisat2.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="op">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<blockquote class="blockquote">
-<p>注：mouse——grcm38;human——grch38<br>
-文件格式记得检查修改(fastq.gz;fq.gz)</p>
-</blockquote>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>cd .<span class="op">/</span>trimmed</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>INDEX<span class="op">=</span><span class="st">"$HOME/lwl/reference/grcm38/genome"</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>OUTPUT_DIR<span class="op">=</span><span class="st">"../bam/"</span>   </span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>THREADS<span class="op">=</span><span class="dv">12</span>                    </span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>mkdir <span class="op">-</span>p $OUTPUT_DIR</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> R1 <span class="kw">in</span> <span class="op">*</span>_1_val_1.fq.gz</span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>do</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    BASE<span class="op">=</span>$(basename $R1 _1_val_1.fq.gz)</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    R2<span class="op">=</span>${BASE}_2_val_2.fq.gz</span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    output_bam<span class="op">=</span>${OUTPUT_DIR}<span class="op">/</span>${BASE}.bam</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    hisat2 <span class="op">-</span>p $THREADS <span class="op">-</span>x $INDEX <span class="op">-</span><span class="dv">1</span> $R1 <span class="op">-</span><span class="dv">2</span> $R2 <span class="op">|</span> samtools view <span class="op">-</span>Sb <span class="op">&gt;</span> $output_bam </span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    echo <span class="st">"Processed $BASE"</span></span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>done</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="动物组织样本" class="level3">
+<h3 class="anchored" data-anchor-id="动物组织样本">3.动物组织样本</h3>
+<ol type="1">
+<li><p>将组织称重并在H<sub>2</sub>O<strong>（200 μL H<sub>2</sub>O，约10mg组织）</strong>中匀浆<strong>三个循环</strong>（每个循环：5500 rpm，20 s，重复三次）<br>
+</p></li>
+<li><p>在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H<sub>2</sub>O稀释10-20倍，用BCA试剂盒测定蛋白质浓度<br>
+</p></li>
+<li><p>200 μL均质组织溶液加200 μL H<sub>2</sub>O+960μL MTBE/MeOH（5:1；v/v）<br>
+</p></li>
+<li><p>涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚<br>
+</p></li>
+<li><p>第四步共<strong>重复3次</strong>，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干<br>
+</p></li>
+<li><p>重组：100 μL MeOH</p></li>
+</ol>
 </section>
-<section id="运行下面代码获得counts.txt文件" class="level2">
-<h2 class="anchored" data-anchor-id="运行下面代码获得counts.txt文件">运行下面代码获得<strong>counts.txt</strong>文件</h2>
-<blockquote class="blockquote">
-<p>注：mouse——vM35,human——v46<br>
-用excel打开删除第一行，保存为.CSV文件</p>
-</blockquote>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>featureCounts <span class="op">-</span>T <span class="dv">12</span> <span class="op">-</span>p <span class="op">-</span>t exon <span class="op">-</span>g gene_id <span class="op">-</span>a <span class="op">~/</span>lwl<span class="op">/</span>reference<span class="op">/</span>gencode.vM35.chr_patch_hapl_scaff.annotation.gtf.gz <span class="op">-</span>o .<span class="op">/</span>counts.txt <span class="op">*</span>.bam</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="定磷" class="level2">
+<h2 class="anchored" data-anchor-id="定磷">定磷</h2>
+<p>将复溶的样品4℃下14000 rpm离心30 min并转移至另一EP管中，取10 μL定磷。</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>注意选择合适离心管,离心使用1.5 mL离心管，2 mL离心管可能会导致样品有沉淀。</strong></p>
+</div>
+</div>
+<section id="试剂" class="level3">
+<h3 class="anchored" data-anchor-id="试剂"><strong>1.试剂</strong></h3>
+<p><strong>1. 1 mM NaH<sub>2</sub>PO<sub>4</sub>（Sigma Aldrich#s8282）FW:119.98</strong><br>
+</p>
+<ul>
+<li>配制：11.99 mg/100 mL ddH2O<br>
+</li>
+</ul>
+<p><strong>2. 70% HClO<sub>4</sub>（Sigma Aldrich#380083）</strong><br>
+</p>
+<ul>
+<li>因高氯酸具有极强的腐蚀性，故量取高氯酸时，需十分小心。<br>
+</li>
+</ul>
+<p><strong>3. 5% Na<sub>2</sub>MoO<sub>4</sub>·2H<sub>2</sub>O（Sigma Aldrich#M1003）</strong><br>
+</p>
+<ul>
+<li>配制：2.5 g/100 mL ddH<sub>2</sub>O，可将溶液分装，置于-20℃保存。<br>
+</li>
+</ul>
+<p><strong>4. 10%抗坏血酸（Sigma Aldrich#A5960）</strong><br>
+</p>
+<ul>
+<li>1 g/10 mL ddH<sub>2</sub>O（足够80个样品使用），现用现配，避光。</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+警告
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>819负20度冰箱,用完试剂请放回！！！</strong></p>
+</div>
+</div>
+</section>
+<section id="原理" class="level3">
+<h3 class="anchored" data-anchor-id="原理"><strong>2.原理</strong></h3>
+<p>在酸性环境下，定磷试剂中的钼酸钠以钼酸形式与样品中的磷酸反应生成磷钼酸，当还原剂存在时，磷钼酸会立即转变成蓝色的还原产物—钼蓝，钼蓝最大的光吸收在650-660 nm波长处。当使用抗坏血酸还原剂时，测定的最适范围为1-10 μg无机磷。（测定样品总磷量时需先使用硫酸或高氯酸将其消化为无机磷再进行测定）</p>
+</section>
+<section id="步骤" class="level3">
+<h3 class="anchored" data-anchor-id="步骤"><strong>3.步骤</strong></h3>
+<ol type="1">
+<li><p>将10 μL的样品置于玻璃管中，加入125 μL的70% HClO<sub>4</sub>溶液，放置于170℃油浴中加热20-40 min（依据脂质浓度调整加热时间），加热结束时，样品澄清。</p></li>
+<li><p>在加热样品的过程中，按照下表制备标准曲线 <a href="#tbl-letters" class="quarto-xref">Table&nbsp;1</a>，各个组分需涡旋充分混匀。<br>
+</p></li>
+</ol>
+<div id="tbl-letters" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-letters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: <strong>定磷配置表</strong>
+</figcaption>
+<div aria-describedby="tbl-letters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">标准曲线</th>
+<th style="text-align: center;">70% HClO<sub>4</sub></th>
+<th style="text-align: center;">dd H<sub>2</sub>O</th>
+<th style="text-align: center;">2.5% Na<sub>2</sub>Mo<sub>4</sub>·2H<sub>2</sub>O</th>
+<th style="text-align: center;">10% 抗坏血酸</th>
+<th style="text-align: center;">1mM NaH<sub>2</sub>PO<sub>4</sub> (add last)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">825μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">0μL</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.16μM</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">820μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">5μL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12.5μM</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">810μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">15μL</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20.8μM</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">800μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">25μL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">29.2μM</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">790μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">35μL</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">37.5μM</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">780μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">45μL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">54.2μM</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">760μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">125μL</td>
+<td style="text-align: center;">65μL</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><p>将样品取出<strong>冷却至室温</strong>后，加入825 μL ddH<sub>2</sub>O、125 μL Na<sub>2</sub>MoO<sub>4</sub>·2H<sub>2</sub>O，最后加入125 μL 10%抗坏血酸，<strong>充分混匀</strong>。</p></li>
+<li><p>将样品和标准品同时放入沸水浴中加热10 min后取出<strong>放置于冰</strong>上，转移200 μL至96孔板中，使用酶标仪检测660 nm波长处的吸光度值，将所测的吸光度值代入标准曲线求得含磷浓度，进而计算磷量。</p></li>
+</ol>
+</section>
+</section>
+<section id="制样" class="level2">
+<h2 class="anchored" data-anchor-id="制样">制样</h2>
+<ol type="1">
+<li><p><strong>固定磷量</strong>上样: 取20 nmol Pi样本放置于液相小瓶中，加入甲醇补足体积至40 μL，加入2 μL氘代PE内标。（<strong>16:0-d31-18:1</strong> PE：母液浓度为20 μM）。</p></li>
+<li><p><strong>固定体积</strong>上样: 直接取40 μL样品上样，加入2 μL氘代PE内标。</p></li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+友情提示
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>是否需要制作QC样品？个人建议：<strong>制作QC！！！</strong></p>
+</div>
+</div>
+</section>
+<section id="氧化磷脂组学液质条件" class="level2">
+<h2 class="anchored" data-anchor-id="氧化磷脂组学液质条件">氧化磷脂组学液质条件</h2>
+<ol type="1">
+<li><p>检测摸式：<strong>负离子</strong></p></li>
+<li><p>质量范围：<strong>114-1700 Da</strong></p></li>
+<li><p>液相分析条件</p></li>
+</ol>
+<ul>
+<li>色谱柱：<strong>Waters Premier ACQUITY BEH HILIC (100×2.1 mm, 1.7 μm)</strong></li>
+<li>柱温：<strong>40 ℃</strong></li>
+<li>流动相：
+<ul>
+<li>A相:<strong>乙腈:水(95:5)+10 mM甲酸铵</strong></li>
+<li>B相:<strong>乙腈:水(50:50)+10 mM甲酸铵</strong></li>
+</ul></li>
+<li>洗脱程序：<a href="#tbl-le" class="quarto-xref">Table&nbsp;2</a></li>
+</ul>
+<div id="tbl-le" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: <strong>洗脱程序</strong>
+</figcaption>
+<div aria-describedby="tbl-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Time[mins]</th>
+<th style="text-align: center;">Flow[ml/min]</th>
+<th style="text-align: center;">B%</th>
+<th style="text-align: center;">C%</th>
+<th style="text-align: center;">Curve</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0.000</td>
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10.000</td>
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">35.0</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10.100</td>
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">100.0</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13.000</td>
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">100.0</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13.100</td>
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">22.000</td>
+<td style="text-align: center;">0.25</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<ul>
+<li>进样量：2 μL(按具体情况调整)</li>
+</ul>
+<ol start="4" type="1">
+<li>质谱分析条件</li>
+</ol>
+<ul>
+<li><p>源气参数：</p>
+<ul>
+<li><p>离子源：电喷雾离子化源（ESI）</p></li>
+<li><p>Spray Voltage：负离子, -2.8 kV</p></li>
+<li><p>S-lens RF level：65</p></li>
+<li><p>Capillary temperature：350 ℃</p></li>
+<li><p>Aux gas heater temp：320 ℃</p></li>
+<li><p>鞘气：30 arb</p></li>
+<li><p>辅助气：15 arb</p></li>
+<li><p>反吹气：0 arb</p></li>
+</ul></li>
+<li><p>质谱采集参数：请考虑是否需要采集二级。</p>
+<ul>
+<li><p>Full MS: Resolution: 70000</p></li>
+<li><p>AGC: 3e6</p></li>
+<li><p>MIT: 100 ms</p></li>
+<li><p>Full MS/dd-MS2: Resolution: 17500</p></li>
+<li><p>AGC: 1e5</p></li>
+<li><p>MIT: 50 ms</p></li>
+<li><p>Top N:5; Isolation window:1.0m/z</p></li>
+<li><p>(N)CE:20, 30, 40</p></li>
+<li><p>dd Settings: Minimum AGC: 8.00e3</p></li>
+<li><p>Intensity thresh: 1.6e5</p></li>
+<li><p>Dynamic exclus: 10.0s</p></li>
+</ul></li>
+</ul>
 
 
 </section>
@@ -942,6 +1204,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../Oxylipins.html" class="pagination-link" aria-label="氧化脂肪酸-7500">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">氧化脂肪酸-7500</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../zhizhizuxue/yanghau/Untargeted_metabolomics.html" class="pagination-link" aria-label="非靶向代谢">
+        <span class="nav-page-text">非靶向代谢</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
