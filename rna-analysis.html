@@ -64,6 +64,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/logo.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -111,12 +112,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <div id="quarto-announcement" data-announcement-id="55740f6233066840ffc5de6867c5fa3e" class="alert alert-warning hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+    <div id="quarto-announcement" data-announcement-id="55740f6233066840ffc5de6867c5fa3e" class="alert alert-danger hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p>请谨慎使用本网站！！！</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.jpg" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Lipid Website</span>
     </a>
@@ -164,6 +168,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://bookdown.org"> <i class="bi bi-book-fill" role="img">
+</i> 
+<span class="menu-text">Bookdown</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -257,7 +268,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\tiaotiao.jpg" class="img-fluid figure-img"></p>
+<p><img src="images/tiaotiao.jpg" class="img-fluid figure-img"></p>
 <figcaption>She is TiaoTiao!</figcaption>
 </figure>
 </div>
@@ -266,10 +277,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#运行fastqc" id="toc-运行fastqc" class="nav-link active" data-scroll-target="#运行fastqc">运行Fastqc</a></li>
-  <li><a href="#运行trim_galord" id="toc-运行trim_galord" class="nav-link" data-scroll-target="#运行trim_galord">运行Trim_galord</a></li>
-  <li><a href="#运行hisat2" id="toc-运行hisat2" class="nav-link" data-scroll-target="#运行hisat2">运行Hisat2</a></li>
-  <li><a href="#运行下面代码获得counts.txt文件" id="toc-运行下面代码获得counts.txt文件" class="nav-link" data-scroll-target="#运行下面代码获得counts.txt文件">运行下面代码获得<strong>counts.txt</strong>文件</a></li>
+  <li><a href="#运行fastqc" id="toc-运行fastqc" class="nav-link active" data-scroll-target="#运行fastqc"><span class="header-section-number">1</span> 运行Fastqc</a></li>
+  <li><a href="#运行trim_galord" id="toc-运行trim_galord" class="nav-link" data-scroll-target="#运行trim_galord"><span class="header-section-number">2</span> 运行Trim_galord</a></li>
+  <li><a href="#运行hisat2" id="toc-运行hisat2" class="nav-link" data-scroll-target="#运行hisat2"><span class="header-section-number">3</span> 运行Hisat2</a></li>
+  <li><a href="#运行下面代码获得counts.txt文件" id="toc-运行下面代码获得counts.txt文件" class="nav-link" data-scroll-target="#运行下面代码获得counts.txt文件"><span class="header-section-number">4</span> 运行下面代码获得<strong>counts.txt</strong>文件</a></li>
   </ul>
 </nav>
     </div>
@@ -295,94 +306,90 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="运行fastqc" class="level2">
-<h2 class="anchored" data-anchor-id="运行fastqc">运行Fastqc</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>nohup .<span class="op">/</span>fastqc.sh <span class="op">&gt;</span>fastqc.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="op">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="运行fastqc" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="运行fastqc"><span class="header-section-number">1</span> 运行Fastqc</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nohup</span> ./fastqc.sh <span class="op">&gt;</span>fastqc.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <blockquote class="blockquote">
 <p>运行前检查脚本权限是否开通——chmod +x *.sh<br>
 文件格式记得检查修改(fastq.gz;fq.gz)</p>
 </blockquote>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cd .<span class="op">/</span>raw_data</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>mkdir <span class="op">-</span>p ..<span class="op">/</span>fastqc_results</span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ./raw_data</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> ../fastqc_results</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> <span class="op">*</span>_1.fq.gz </span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>do</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    base_name<span class="op">=</span>$(echo $file <span class="op">|</span> sed <span class="st">'s/_1.fq.gz//'</span>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    file2<span class="op">=</span>${base_name}_2.fq.gz</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> [ <span class="op">-</span>e <span class="st">"$file2"</span> ]<span class="op">;</span> then</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        echo <span class="st">"Running fastqc on $file and $file2 with 10 threads..."</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="pp">*</span>_1.fq.gz </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="va">base_name</span><span class="op">=</span><span class="va">$(</span><span class="bu">echo</span> <span class="va">$file</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">'s/_1.fq.gz//'</span><span class="va">)</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="va">file2</span><span class="op">=</span><span class="va">${base_name}</span>_2.fq.gz</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-e</span> <span class="st">"</span><span class="va">$file2</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">echo</span> <span class="st">"Running fastqc on </span><span class="va">$file</span><span class="st"> and </span><span class="va">$file2</span><span class="st"> with 10 threads..."</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        fastqc <span class="op">-</span>t <span class="dv">10</span> <span class="op">-</span>o ..<span class="op">/</span>fastqc_results $file $file2 </span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> echo <span class="st">"Matching file for $file not found."</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    fi </span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>done </span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>echo <span class="st">"FastQC analysis is complete."</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        <span class="ex">fastqc</span> <span class="at">-t</span> 10 <span class="at">-o</span> ../fastqc_results <span class="va">$file</span> <span class="va">$file2</span> </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span> <span class="bu">echo</span> <span class="st">"Matching file for </span><span class="va">$file</span><span class="st"> not found."</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">fi</span> </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span> </span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"FastQC analysis is complete."</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="运行trim_galord" class="level2">
-<h2 class="anchored" data-anchor-id="运行trim_galord">运行Trim_galord</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>nohup .<span class="op">/</span>trim_galore.sh <span class="op">&gt;</span>trim_galore.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="op">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="运行trim_galord" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="运行trim_galord"><span class="header-section-number">2</span> 运行Trim_galord</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nohup</span> ./trim_galore.sh <span class="op">&gt;</span>trim_galore.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <blockquote class="blockquote">
 <p>文件格式记得检查修改(fastq.gz;fq.gz)</p>
 </blockquote>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>cd .<span class="op">/</span>raw_data</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>output_dir<span class="op">=</span><span class="st">"../trimmed"</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> [ <span class="op">!</span> <span class="op">-</span>d <span class="st">"$output_dir"</span> ]<span class="op">;</span> then </span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  mkdir <span class="op">-</span>p <span class="st">"$output_dir"</span> </span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>fi</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ./raw_data</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="va">output_dir</span><span class="op">=</span><span class="st">"../trimmed"</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-d</span> <span class="st">"</span><span class="va">$output_dir</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mkdir</span> <span class="at">-p</span> <span class="st">"</span><span class="va">$output_dir</span><span class="st">"</span> </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> <span class="op">*</span>_1.fq.gz </span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>do </span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  base<span class="op">=</span>$(basename $file _1.fq.gz)</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  file1<span class="op">=</span>${base}_1.fq.gz </span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  file2<span class="op">=</span>${base}_2.fq.gz </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="pp">*</span>_1.fq.gz </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span> </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="va">base</span><span class="op">=</span><span class="va">$(</span><span class="fu">basename</span> <span class="va">$file</span> _1.fq.gz<span class="va">)</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="va">file1</span><span class="op">=</span><span class="va">${base}</span>_1.fq.gz </span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="va">file2</span><span class="op">=</span><span class="va">${base}</span>_2.fq.gz </span>
 <span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> [ <span class="op">-</span>f <span class="st">"$file2"</span> ]<span class="op">;</span> then </span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    echo <span class="st">"Processing $file1 and $file2 with trim_galore..."</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-f</span> <span class="st">"</span><span class="va">$file2</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> </span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Processing </span><span class="va">$file1</span><span class="st"> and </span><span class="va">$file2</span><span class="st"> with trim_galore..."</span></span>
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    trim_galore  <span class="op">-</span>q <span class="dv">20</span> <span class="op">--</span>phred33 <span class="op">--</span>stringency <span class="dv">3</span> <span class="op">--</span>length <span class="dv">20</span> <span class="op">-</span>e <span class="fl">0.1</span> <span class="op">-</span>o $output_dir <span class="op">--</span>paired $file1 $file2 </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="ex">trim_galore</span>  <span class="at">-q</span> 20 <span class="at">--phred33</span> <span class="at">--stringency</span> 3 <span class="at">--length</span> 20 <span class="at">-e</span> 0.1 <span class="at">-o</span> <span class="va">$output_dir</span> <span class="at">--paired</span> <span class="va">$file1</span> <span class="va">$file2</span> </span>
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    echo <span class="st">"Paired file for $file1 not found."</span> </span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  fi </span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>done</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Paired file for </span><span class="va">$file1</span><span class="st"> not found."</span> </span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="cf">fi</span> </span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="运行hisat2" class="level2">
-<h2 class="anchored" data-anchor-id="运行hisat2">运行Hisat2</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>nohup .<span class="op">/</span>hisat2.sh <span class="op">&gt;</span>hisat2.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="op">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="运行hisat2" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="运行hisat2"><span class="header-section-number">3</span> 运行Hisat2</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nohup</span> ./hisat2.sh <span class="op">&gt;</span>hisat2.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">&amp;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <blockquote class="blockquote">
 <p>注：mouse——grcm38;human——grch38<br>
 文件格式记得检查修改(fastq.gz;fq.gz)</p>
 </blockquote>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>cd .<span class="op">/</span>trimmed</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>INDEX<span class="op">=</span><span class="st">"$HOME/lwl/reference/grcm38/genome"</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>OUTPUT_DIR<span class="op">=</span><span class="st">"../bam/"</span>   </span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>THREADS<span class="op">=</span><span class="dv">12</span>                    </span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ./trimmed</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="va">INDEX</span><span class="op">=</span><span class="st">"</span><span class="va">$HOME</span><span class="st">/lwl/reference/grcm38/genome"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="va">OUTPUT_DIR</span><span class="op">=</span><span class="st">"../bam/"</span>   </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="va">THREADS</span><span class="op">=</span>12                    </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="va">$OUTPUT_DIR</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>mkdir <span class="op">-</span>p $OUTPUT_DIR</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> R1 <span class="kw">in</span> <span class="op">*</span>_1_val_1.fq.gz</span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>do</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    BASE<span class="op">=</span>$(basename $R1 _1_val_1.fq.gz)</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    R2<span class="op">=</span>${BASE}_2_val_2.fq.gz</span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    output_bam<span class="op">=</span>${OUTPUT_DIR}<span class="op">/</span>${BASE}.bam</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    hisat2 <span class="op">-</span>p $THREADS <span class="op">-</span>x $INDEX <span class="op">-</span><span class="dv">1</span> $R1 <span class="op">-</span><span class="dv">2</span> $R2 <span class="op">|</span> samtools view <span class="op">-</span>Sb <span class="op">&gt;</span> $output_bam </span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    echo <span class="st">"Processed $BASE"</span></span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>done</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> R1 <span class="kw">in</span> <span class="pp">*</span>_1_val_1.fq.gz</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="va">BASE</span><span class="op">=</span><span class="va">$(</span><span class="fu">basename</span> <span class="va">$R1</span> _1_val_1.fq.gz<span class="va">)</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="va">R2</span><span class="op">=</span><span class="va">${BASE}</span>_2_val_2.fq.gz</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="va">output_bam</span><span class="op">=</span><span class="va">${OUTPUT_DIR}</span>/<span class="va">${BASE}</span>.bam</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="ex">hisat2</span> <span class="at">-p</span> <span class="va">$THREADS</span> <span class="at">-x</span> <span class="va">$INDEX</span> <span class="at">-1</span> <span class="va">$R1</span> <span class="at">-2</span> <span class="va">$R2</span> <span class="kw">|</span> <span class="ex">samtools</span> view <span class="at">-Sb</span> <span class="op">&gt;</span> <span class="va">$output_bam</span> </span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Processed </span><span class="va">$BASE</span><span class="st">"</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="运行下面代码获得counts.txt文件" class="level2">
-<h2 class="anchored" data-anchor-id="运行下面代码获得counts.txt文件">运行下面代码获得<strong>counts.txt</strong>文件</h2>
+<section id="运行下面代码获得counts.txt文件" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="运行下面代码获得counts.txt文件"><span class="header-section-number">4</span> 运行下面代码获得<strong>counts.txt</strong>文件</h2>
 <blockquote class="blockquote">
 <p>注：mouse——vM35,human——v46<br>
 用excel打开删除第一行，保存为.CSV文件</p>
 </blockquote>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>featureCounts <span class="op">-</span>T <span class="dv">12</span> <span class="op">-</span>p <span class="op">-</span>t exon <span class="op">-</span>g gene_id <span class="op">-</span>a <span class="op">~/</span>lwl<span class="op">/</span>reference<span class="op">/</span>gencode.vM35.chr_patch_hapl_scaff.annotation.gtf.gz <span class="op">-</span>o .<span class="op">/</span>counts.txt <span class="op">*</span>.bam</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">featureCounts</span> <span class="at">-T</span> 12 <span class="at">-p</span> <span class="at">-t</span> exon <span class="at">-g</span> gene_id <span class="at">-a</span> ~/lwl/reference/gencode.vM35.chr_patch_hapl_scaff.annotation.gtf.gz <span class="at">-o</span> ./counts.txt <span class="pp">*</span>.bam</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

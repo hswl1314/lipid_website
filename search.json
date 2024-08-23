@@ -27,8 +27,8 @@
     "objectID": "zhizhizuxue/yanghau/Untargeted_metabolomics.html#代谢组学液质条件",
     "href": "zhizhizuxue/yanghau/Untargeted_metabolomics.html#代谢组学液质条件",
     "title": "Untargeted metabolomics",
-    "section": "代谢组学液质条件",
-    "text": "代谢组学液质条件\n\n检测摸式：正/负离子\n质量范围：80-1200 Da\n液相分析条件\n\n\n色谱柱：Waters Premier ACQUITY BEH Amide (2.1×100 mm, 1.7 μm)\n柱温：25 ℃\n流动相：\n\nA相:A相: 100% H2O+25 mM乙酸铵+25 mM氨水（500 mL体系需加936 μL 25%氨水, PH＜11）\nB相:100% ACN\n\n洗脱程序：Table 1\n\n\n\n\nTable 1: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.50\n95.0\n5\n\n\n0.500\n0.50\n95.0\n5\n\n\n7.500\n0.50\n65.0\n5\n\n\n8.000\n0.50\n40.0\n5\n\n\n9.000\n0.50\n40.0\n5\n\n\n9.100\n0.50\n95.0\n5\n\n\n12.000\n0.50\n95.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：正离子, 3.0 kV; 负离子, -3.0 kV\nS-lens RF level：60\nCapillary temperature：350 ℃\nAux gas heater temp：400 ℃\n鞘气：50 arb\n辅助气：15 arb\n反吹气：2 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 2e5\nMIT: 75 ms\nTop N:6\nIsolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 1.20e3\nIntensity thresh: 1.6e4\nApex trigger: 2 to 4s\nDynamic exclus: 8.0s",
+    "section": "2 代谢组学液质条件",
+    "text": "2 代谢组学液质条件\n\n检测摸式：正/负离子\n质量范围：80-1200 Da\n液相分析条件\n\n\n色谱柱：Waters Premier ACQUITY BEH Amide (2.1×100 mm, 1.7 μm)\n柱温：25 ℃\n流动相：\n\nA相:A相: 100% H2O+25 mM乙酸铵+25 mM氨水（500 mL体系需加936 μL 25%氨水, PH＜11）\nB相:100% ACN\n\n洗脱程序：Table 1\n\n\n\n\nTable 1: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.50\n95.0\n5\n\n\n0.500\n0.50\n95.0\n5\n\n\n7.500\n0.50\n65.0\n5\n\n\n8.000\n0.50\n40.0\n5\n\n\n9.000\n0.50\n40.0\n5\n\n\n9.100\n0.50\n95.0\n5\n\n\n12.000\n0.50\n95.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：正离子, 3.0 kV; 负离子, -3.0 kV\nS-lens RF level：60\nCapillary temperature：350 ℃\nAux gas heater temp：400 ℃\n鞘气：50 arb\n辅助气：15 arb\n反吹气：2 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 2e5\nMIT: 75 ms\nTop N:6\nIsolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 1.20e3\nIntensity thresh: 1.6e4\nApex trigger: 2 to 4s\nDynamic exclus: 8.0s",
     "crumbs": [
       "Home",
       "U3000",
@@ -53,29 +53,29 @@
     "objectID": "rna-analysis.html#运行trim_galord",
     "href": "rna-analysis.html#运行trim_galord",
     "title": "转录组上游分析",
-    "section": "运行Trim_galord",
-    "text": "运行Trim_galord\nnohup ./trim_galore.sh &gt;trim_galore.log 2&gt;&1 &\n\n文件格式记得检查修改(fastq.gz;fq.gz)\n\n#!/bin/bash\ncd ./raw_data\noutput_dir=\"../trimmed\" \nif [ ! -d \"$output_dir\" ]; then \n  mkdir -p \"$output_dir\" \nfi\n\nfor file in *_1.fq.gz \ndo \n  base=$(basename $file _1.fq.gz)\n  file1=${base}_1.fq.gz \n  file2=${base}_2.fq.gz \n  \n  if [ -f \"$file2\" ]; then \n    echo \"Processing $file1 and $file2 with trim_galore...\"\n    \n    trim_galore  -q 20 --phred33 --stringency 3 --length 20 -e 0.1 -o $output_dir --paired $file1 $file2 \n  else\n    echo \"Paired file for $file1 not found.\" \n  fi \ndone"
+    "section": "2 运行Trim_galord",
+    "text": "2 运行Trim_galord\nnohup ./trim_galore.sh &gt;trim_galore.log 2&gt;&1 &\n\n文件格式记得检查修改(fastq.gz;fq.gz)\n\n#!/bin/bash\ncd ./raw_data\noutput_dir=\"../trimmed\" \nif [ ! -d \"$output_dir\" ]; then \n  mkdir -p \"$output_dir\" \nfi\n\nfor file in *_1.fq.gz \ndo \n  base=$(basename $file _1.fq.gz)\n  file1=${base}_1.fq.gz \n  file2=${base}_2.fq.gz \n  \n  if [ -f \"$file2\" ]; then \n    echo \"Processing $file1 and $file2 with trim_galore...\"\n    \n    trim_galore  -q 20 --phred33 --stringency 3 --length 20 -e 0.1 -o $output_dir --paired $file1 $file2 \n  else\n    echo \"Paired file for $file1 not found.\" \n  fi \ndone"
   },
   {
     "objectID": "rna-analysis.html#运行hisat2",
     "href": "rna-analysis.html#运行hisat2",
     "title": "转录组上游分析",
-    "section": "运行Hisat2",
-    "text": "运行Hisat2\nnohup ./hisat2.sh &gt;hisat2.log 2&gt;&1 &\n\n注：mouse——grcm38;human——grch38\n文件格式记得检查修改(fastq.gz;fq.gz)\n\n#!/bin/bash\ncd ./trimmed\n\n\nINDEX=\"$HOME/lwl/reference/grcm38/genome\"\nOUTPUT_DIR=\"../bam/\"   \nTHREADS=12                    \n\n\nmkdir -p $OUTPUT_DIR\n\nfor R1 in *_1_val_1.fq.gz\ndo\n    BASE=$(basename $R1 _1_val_1.fq.gz)\n    R2=${BASE}_2_val_2.fq.gz\n    output_bam=${OUTPUT_DIR}/${BASE}.bam\n    hisat2 -p $THREADS -x $INDEX -1 $R1 -2 $R2 | samtools view -Sb &gt; $output_bam \n    \n    echo \"Processed $BASE\"\ndone"
+    "section": "3 运行Hisat2",
+    "text": "3 运行Hisat2\nnohup ./hisat2.sh &gt;hisat2.log 2&gt;&1 &\n\n注：mouse——grcm38;human——grch38\n文件格式记得检查修改(fastq.gz;fq.gz)\n\n#!/bin/bash\ncd ./trimmed\nINDEX=\"$HOME/lwl/reference/grcm38/genome\"\nOUTPUT_DIR=\"../bam/\"   \nTHREADS=12                    \n\nmkdir -p $OUTPUT_DIR\n\nfor R1 in *_1_val_1.fq.gz\ndo\n    BASE=$(basename $R1 _1_val_1.fq.gz)\n    R2=${BASE}_2_val_2.fq.gz\n    output_bam=${OUTPUT_DIR}/${BASE}.bam\n    hisat2 -p $THREADS -x $INDEX -1 $R1 -2 $R2 | samtools view -Sb &gt; $output_bam \n    \n    echo \"Processed $BASE\"\ndone"
   },
   {
     "objectID": "rna-analysis.html#运行下面代码获得counts.txt文件",
     "href": "rna-analysis.html#运行下面代码获得counts.txt文件",
     "title": "转录组上游分析",
-    "section": "运行下面代码获得counts.txt文件",
-    "text": "运行下面代码获得counts.txt文件\n\n注：mouse——vM35,human——v46\n用excel打开删除第一行，保存为.CSV文件\n\nfeatureCounts -T 12 -p -t exon -g gene_id -a ~/lwl/reference/gencode.vM35.chr_patch_hapl_scaff.annotation.gtf.gz -o ./counts.txt *.bam"
+    "section": "4 运行下面代码获得counts.txt文件",
+    "text": "4 运行下面代码获得counts.txt文件\n\n注：mouse——vM35,human——v46\n用excel打开删除第一行，保存为.CSV文件\n\nfeatureCounts -T 12 -p -t exon -g gene_id -a ~/lwl/reference/gencode.vM35.chr_patch_hapl_scaff.annotation.gtf.gz -o ./counts.txt *.bam"
   },
   {
     "objectID": "Oxylipins.html",
     "href": "Oxylipins.html",
     "title": "Oxylipins",
     "section": "",
-    "text": "血浆100 μL\n组织5-10 mg\n细胞超大皿（15 cm）\n\n\n\n1. 血浆： 100 μL血浆中加入1ml甲醇（-20℃预冷），涡旋1 min，冰上静置5 min，14000 rpm，20min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n2. 组织、细胞： 1 mL 甲醇中均质，涡旋1 min，冰上静置5 min，14000 rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n3. 细胞上清液： 用与上清液等体积甲醇去提取上清液中的物质，涡旋1 min，冰上静置5 min，14000rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n4. SPE柱法（推荐）：1 mL甲醇活化柱子，1 mL水平衡柱子，过上清液，10%甲醇水1 mL除杂，1 mL甲醇洗脱，氮吹吹干，50 μL甲醇复溶。",
+    "text": "血浆100 μL\n组织5-10 mg\n细胞超大皿（15 cm）\n\n\n\n1. 血浆： 100 μL血浆中加入1ml甲醇（-20℃预冷），涡旋1 min，冰上静置5 min，14000 rpm，20min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n2. 组织、细胞： 1 mL 甲醇中均质，涡旋1 min，冰上静置5 min，14000 rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n3. 细胞上清液： 用与上清液等体积甲醇去提取上清液中的物质，涡旋1 min，冰上静置5 min，14000rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n4. SPE柱法（推荐）：1 mL甲醇活化柱子，1 mL水平衡柱子，过上清液，10%甲醇水1 mL除杂，1 mL甲醇洗脱，氮吹吹干，50 μL甲醇复溶。\n\n\n\n\n1. 固定体积上样：取50 μL样品，加入2ul内标（内标母液：500 ng/mL）\n2. 标曲：制0.625ng/ml、1.25ng/ml、2.5ng/ml、5ng/ml的四个标准品浓度，加入2 μL内标（内标母液：500 ng/ml），用甲醇补足体积到52 μL。\n\n\n\n\n检测摸式：负离子\n质量范围：200-800 Da\n液相分析条件\n\n\n色谱柱：Waters ACQUITY UPLC HSST3 (2.1×100 mm，1.7 μm）\n柱温：40 ℃\n流动相：\n\nA相:30%乙腈水+0.1%甲酸\nB相:50%乙腈+50%异丙醇+0.02%甲酸\n\n洗脱程序：Table 1\n\n\n\n\nTable 1: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.25\n25.0\n5\n\n\n0.250\n0.25\n25.0\n5\n\n\n1.500\n0.25\n55.0\n5\n\n\n3.000\n0.25\n65.0\n5\n\n\n5.500\n0.25\n99.0\n5\n\n\n9.000\n0.25\n99.0\n5\n\n\n9.500\n0.25\n25.0\n5\n\n\n15.000\n0.25\n25.0\n5\n\n\n\n\n\n\n\n进样量：2 μL\n\n\n\n\n\n\n\n进样量增加\n\n\n\n&gt;5 μL需征得老师同意\n\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\n采集模式：T-SIM\nFull MS: Resolution: 17500\nAGC: 2e5\nMIT: 35 ms\n\n\n\n\n\n开发中。。。。",
     "crumbs": [
       "Home",
       "氧化脂肪酸-7500"
@@ -86,40 +86,7 @@
     "href": "Oxylipins.html#提取",
     "title": "Oxylipins",
     "section": "",
-    "text": "血浆100 μL\n组织5-10 mg\n细胞超大皿（15 cm）\n\n\n\n1. 血浆： 100 μL血浆中加入1ml甲醇（-20℃预冷），涡旋1 min，冰上静置5 min，14000 rpm，20min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n2. 组织、细胞： 1 mL 甲醇中均质，涡旋1 min，冰上静置5 min，14000 rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n3. 细胞上清液： 用与上清液等体积甲醇去提取上清液中的物质，涡旋1 min，冰上静置5 min，14000rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n4. SPE柱法（推荐）：1 mL甲醇活化柱子，1 mL水平衡柱子，过上清液，10%甲醇水1 mL除杂，1 mL甲醇洗脱，氮吹吹干，50 μL甲醇复溶。",
-    "crumbs": [
-      "Home",
-      "氧化脂肪酸-7500"
-    ]
-  },
-  {
-    "objectID": "Oxylipins.html#制样",
-    "href": "Oxylipins.html#制样",
-    "title": "Oxylipins",
-    "section": "制样",
-    "text": "制样\n1. 固定体积上样：取50 μL样品，加入2ul内标（内标母液：500 ng/mL）\n2. 标曲：制0.625ng/ml、1.25ng/ml、2.5ng/ml、5ng/ml的四个标准品浓度，加入2 μL内标（内标母液：500 ng/ml），用甲醇补足体积到52 μL。",
-    "crumbs": [
-      "Home",
-      "氧化脂肪酸-7500"
-    ]
-  },
-  {
-    "objectID": "Oxylipins.html#非靶向氧化脂肪酸液质条件",
-    "href": "Oxylipins.html#非靶向氧化脂肪酸液质条件",
-    "title": "Oxylipins",
-    "section": "非靶向氧化脂肪酸液质条件",
-    "text": "非靶向氧化脂肪酸液质条件\n\n检测摸式：负离子\n质量范围：200-800 Da\n液相分析条件\n\n\n色谱柱：Waters ACQUITY UPLC HSST3 (2.1×100 mm，1.7 μm）\n柱温：40 ℃\n流动相：\n\nA相:30%乙腈水+0.1%甲酸\nB相:50%乙腈+50%异丙醇+0.02%甲酸\n\n洗脱程序：Table 1\n\n\n\n\nTable 1: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.25\n25.0\n5\n\n\n0.250\n0.25\n25.0\n5\n\n\n1.500\n0.25\n55.0\n5\n\n\n3.000\n0.25\n65.0\n5\n\n\n5.500\n0.25\n99.0\n5\n\n\n9.000\n0.25\n99.0\n5\n\n\n9.500\n0.25\n25.0\n5\n\n\n15.000\n0.25\n25.0\n5\n\n\n\n\n\n\n\n进样量：2 μL\n\n\n\n\n\n\n\n进样量增加\n\n\n\n&gt;5 μL需征得老师同意\n\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\n采集模式：T-SIM\nFull MS: Resolution: 17500\nAGC: 2e5\nMIT: 35 ms",
-    "crumbs": [
-      "Home",
-      "氧化脂肪酸-7500"
-    ]
-  },
-  {
-    "objectID": "Oxylipins.html#靶向氧化脂肪酸液质条件",
-    "href": "Oxylipins.html#靶向氧化脂肪酸液质条件",
-    "title": "Oxylipins",
-    "section": "靶向氧化脂肪酸液质条件",
-    "text": "靶向氧化脂肪酸液质条件\n开发中。。。。",
+    "text": "血浆100 μL\n组织5-10 mg\n细胞超大皿（15 cm）\n\n\n\n1. 血浆： 100 μL血浆中加入1ml甲醇（-20℃预冷），涡旋1 min，冰上静置5 min，14000 rpm，20min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n2. 组织、细胞： 1 mL 甲醇中均质，涡旋1 min，冰上静置5 min，14000 rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n3. 细胞上清液： 用与上清液等体积甲醇去提取上清液中的物质，涡旋1 min，冰上静置5 min，14000rpm，20 min，取上清，氮吹吹干，50 μL质谱级甲醇复溶；14000 rpm，20 min离心，-80℃保存。\n4. SPE柱法（推荐）：1 mL甲醇活化柱子，1 mL水平衡柱子，过上清液，10%甲醇水1 mL除杂，1 mL甲醇洗脱，氮吹吹干，50 μL甲醇复溶。\n\n\n\n\n1. 固定体积上样：取50 μL样品，加入2ul内标（内标母液：500 ng/mL）\n2. 标曲：制0.625ng/ml、1.25ng/ml、2.5ng/ml、5ng/ml的四个标准品浓度，加入2 μL内标（内标母液：500 ng/ml），用甲醇补足体积到52 μL。\n\n\n\n\n检测摸式：负离子\n质量范围：200-800 Da\n液相分析条件\n\n\n色谱柱：Waters ACQUITY UPLC HSST3 (2.1×100 mm，1.7 μm）\n柱温：40 ℃\n流动相：\n\nA相:30%乙腈水+0.1%甲酸\nB相:50%乙腈+50%异丙醇+0.02%甲酸\n\n洗脱程序：Table 1\n\n\n\n\nTable 1: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.25\n25.0\n5\n\n\n0.250\n0.25\n25.0\n5\n\n\n1.500\n0.25\n55.0\n5\n\n\n3.000\n0.25\n65.0\n5\n\n\n5.500\n0.25\n99.0\n5\n\n\n9.000\n0.25\n99.0\n5\n\n\n9.500\n0.25\n25.0\n5\n\n\n15.000\n0.25\n25.0\n5\n\n\n\n\n\n\n\n进样量：2 μL\n\n\n\n\n\n\n\n进样量增加\n\n\n\n&gt;5 μL需征得老师同意\n\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\n采集模式：T-SIM\nFull MS: Resolution: 17500\nAGC: 2e5\nMIT: 35 ms\n\n\n\n\n\n开发中。。。。",
     "crumbs": [
       "Home",
       "氧化脂肪酸-7500"
@@ -136,15 +103,15 @@
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "section": "1 Education",
+    "text": "1 Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
     "title": "About",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "section": "2 Experience",
+    "text": "2 Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
   },
   {
     "objectID": "index.html",
@@ -188,8 +155,8 @@
     "objectID": "zhizhizuxue/Oxidized_Phospholipidomics.html#定磷",
     "href": "zhizhizuxue/Oxidized_Phospholipidomics.html#定磷",
     "title": "Oxidized Phospholipidomics",
-    "section": "定磷",
-    "text": "定磷\n将复溶的样品4℃下14000 rpm离心30 min并转移至另一EP管中，取10 μL定磷。\n\n\n\n\n\n\nNote\n\n\n\n注意选择合适离心管,离心使用1.5 mL离心管，2 mL离心管可能会导致样品有沉淀。\n\n\n\n1.试剂\n1. 1 mM NaH2PO4（Sigma Aldrich#s8282）FW:119.98\n\n\n配制：11.99 mg/100 mL ddH2O\n\n\n2. 70% HClO4（Sigma Aldrich#380083）\n\n\n因高氯酸具有极强的腐蚀性，故量取高氯酸时，需十分小心。\n\n\n3. 5% Na2MoO4·2H2O（Sigma Aldrich#M1003）\n\n\n配制：2.5 g/100 mL ddH2O，可将溶液分装，置于-20℃保存。\n\n\n4. 10%抗坏血酸（Sigma Aldrich#A5960）\n\n\n1 g/10 mL ddH2O（足够80个样品使用），现用现配，避光。\n\n\n\n\n\n\n\n警告\n\n\n\n819负20度冰箱,用完试剂请放回！！！\n\n\n\n\n2.原理\n在酸性环境下，定磷试剂中的钼酸钠以钼酸形式与样品中的磷酸反应生成磷钼酸，当还原剂存在时，磷钼酸会立即转变成蓝色的还原产物—钼蓝，钼蓝最大的光吸收在650-660 nm波长处。当使用抗坏血酸还原剂时，测定的最适范围为1-10 μg无机磷。（测定样品总磷量时需先使用硫酸或高氯酸将其消化为无机磷再进行测定）\n\n\n3.步骤\n\n将10 μL的样品置于玻璃管中，加入125 μL的70% HClO4溶液，放置于170℃油浴中加热20-40 min（依据脂质浓度调整加热时间），加热结束时，样品澄清。\n在加热样品的过程中，按照下表制备标准曲线 Table 1，各个组分需涡旋充分混匀。\n\n\n\n\n\nTable 1: 定磷配置表\n\n\n\n\n\n\n\n\n\n\n\n\n\n标准曲线\n70% HClO4\ndd H2O\n2.5% Na2Mo4·2H2O\n10% 抗坏血酸\n1mM NaH2PO4 (add last)\n\n\n\n\n0\n125μL\n825μL\n125μL\n125μL\n0μL\n\n\n4.16μM\n125μL\n820μL\n125μL\n125μL\n5μL\n\n\n12.5μM\n125μL\n810μL\n125μL\n125μL\n15μL\n\n\n20.8μM\n125μL\n800μL\n125μL\n125μL\n25μL\n\n\n29.2μM\n125μL\n790μL\n125μL\n125μL\n35μL\n\n\n37.5μM\n125μL\n780μL\n125μL\n125μL\n45μL\n\n\n54.2μM\n125μL\n760μL\n125μL\n125μL\n65μL\n\n\n\n\n\n\n\n将样品取出冷却至室温后，加入825 μL ddH2O、125 μL Na2MoO4·2H2O，最后加入125 μL 10%抗坏血酸，充分混匀。\n将样品和标准品同时放入沸水浴中加热10 min后取出放置于冰上，转移200 μL至96孔板中，使用酶标仪检测660 nm波长处的吸光度值，将所测的吸光度值代入标准曲线求得含磷浓度，进而计算磷量。",
+    "section": "2 定磷",
+    "text": "2 定磷\n将复溶的样品4℃下14000 rpm离心30 min并转移至另一EP管中，取10 μL定磷。\n\n\n\n\n\n\nNote\n\n\n\n注意选择合适离心管,离心使用1.5 mL离心管，2 mL离心管可能会导致样品有沉淀。\n\n\n\n2.1 试剂\n1. 1 mM NaH2PO4（Sigma Aldrich#s8282）FW:119.98\n\n\n配制：11.99 mg/100 mL ddH2O\n\n\n2. 70% HClO4（Sigma Aldrich#380083）\n\n\n因高氯酸具有极强的腐蚀性，故量取高氯酸时，需十分小心。\n\n\n3. 5% Na2MoO4·2H2O（Sigma Aldrich#M1003）\n\n\n配制：2.5 g/100 mL ddH2O，可将溶液分装，置于-20℃保存。\n\n\n4. 10%抗坏血酸（Sigma Aldrich#A5960）\n\n\n1 g/10 mL ddH2O（足够80个样品使用），现用现配，避光。\n\n\n\n\n\n\n\n警告\n\n\n\n819负20度冰箱,用完试剂请放回！！！\n\n\n\n\n2.2 原理\n在酸性环境下，定磷试剂中的钼酸钠以钼酸形式与样品中的磷酸反应生成磷钼酸，当还原剂存在时，磷钼酸会立即转变成蓝色的还原产物—钼蓝，钼蓝最大的光吸收在650-660 nm波长处。当使用抗坏血酸还原剂时，测定的最适范围为1-10 μg无机磷。（测定样品总磷量时需先使用硫酸或高氯酸将其消化为无机磷再进行测定）\n\n\n2.3 步骤\n\n将10 μL的样品置于玻璃管中，加入125 μL的70% HClO4溶液，放置于170℃油浴中加热20-40 min（依据脂质浓度调整加热时间），加热结束时，样品澄清。\n在加热样品的过程中，按照下表制备标准曲线 Table 1，各个组分需涡旋充分混匀。\n\n\n\n\n\nTable 1: 定磷配置表\n\n\n\n\n\n\n\n\n\n\n\n\n\n标准曲线\n70% HClO4\ndd H2O\n2.5% Na2Mo4·2H2O\n10% 抗坏血酸\n1mM NaH2PO4 (add last)\n\n\n\n\n0\n125μL\n825μL\n125μL\n125μL\n0μL\n\n\n4.16μM\n125μL\n820μL\n125μL\n125μL\n5μL\n\n\n12.5μM\n125μL\n810μL\n125μL\n125μL\n15μL\n\n\n20.8μM\n125μL\n800μL\n125μL\n125μL\n25μL\n\n\n29.2μM\n125μL\n790μL\n125μL\n125μL\n35μL\n\n\n37.5μM\n125μL\n780μL\n125μL\n125μL\n45μL\n\n\n54.2μM\n125μL\n760μL\n125μL\n125μL\n65μL\n\n\n\n\n\n\n\n将样品取出冷却至室温后，加入825 μL ddH2O、125 μL Na2MoO4·2H2O，最后加入125 μL 10%抗坏血酸，充分混匀。\n将样品和标准品同时放入沸水浴中加热10 min后取出放置于冰上，转移200 μL至96孔板中，使用酶标仪检测660 nm波长处的吸光度值，将所测的吸光度值代入标准曲线求得含磷浓度，进而计算磷量。",
     "crumbs": [
       "Home",
       "U3000",
@@ -200,8 +167,8 @@
     "objectID": "zhizhizuxue/Oxidized_Phospholipidomics.html#制样",
     "href": "zhizhizuxue/Oxidized_Phospholipidomics.html#制样",
     "title": "Oxidized Phospholipidomics",
-    "section": "制样",
-    "text": "制样\n\n固定磷量上样: 取20 nmol Pi样本放置于液相小瓶中，加入甲醇补足体积至40 μL，加入2 μL氘代PE内标。（16:0-d31-18:1 PE：母液浓度为20 μM）。\n固定体积上样: 直接取40 μL样品上样，加入2 μL氘代PE内标。\n\n\n\n\n\n\n\n友情提示\n\n\n\n是否需要制作QC样品？个人建议：制作QC！！！",
+    "section": "3 制样",
+    "text": "3 制样\n\n固定磷量上样: 取20 nmol Pi样本放置于液相小瓶中，加入甲醇补足体积至40 μL，加入2 μL氘代PE内标。（16:0-d31-18:1 PE：母液浓度为20 μM）。\n固定体积上样: 直接取40 μL样品上样，加入2 μL氘代PE内标。\n\n\n\n\n\n\n\n友情提示\n\n\n\n是否需要制作QC样品？个人建议：制作QC！！！",
     "crumbs": [
       "Home",
       "U3000",
@@ -212,8 +179,8 @@
     "objectID": "zhizhizuxue/Oxidized_Phospholipidomics.html#氧化磷脂组学液质条件",
     "href": "zhizhizuxue/Oxidized_Phospholipidomics.html#氧化磷脂组学液质条件",
     "title": "Oxidized Phospholipidomics",
-    "section": "氧化磷脂组学液质条件",
-    "text": "氧化磷脂组学液质条件\n\n检测摸式：负离子\n质量范围：114-1700 Da\n液相分析条件\n\n\n色谱柱：Waters Premier ACQUITY BEH HILIC (100×2.1 mm, 1.7 μm)\n柱温：40 ℃\n流动相：\n\nA相:乙腈:水(95:5)+10 mM甲酸铵\nB相:乙腈:水(50:50)+10 mM甲酸铵\n\n洗脱程序：Table 2\n\n\n\n\nTable 2: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nC%\nCurve\n\n\n\n\n0.000\n0.25\n0.0\n0.0\n5\n\n\n10.000\n0.25\n35.0\n0.0\n5\n\n\n10.100\n0.25\n100.0\n0.0\n5\n\n\n13.000\n0.25\n100.0\n0.0\n5\n\n\n13.100\n0.25\n0.0\n0.0\n5\n\n\n22.000\n0.25\n0.0\n0.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 1e5\nMIT: 50 ms\nTop N:5; Isolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 8.00e3\nIntensity thresh: 1.6e5\nDynamic exclus: 10.0s",
+    "section": "4 氧化磷脂组学液质条件",
+    "text": "4 氧化磷脂组学液质条件\n\n检测摸式：负离子\n质量范围：114-1700 Da\n液相分析条件\n\n\n色谱柱：Waters Premier ACQUITY BEH HILIC (100×2.1 mm, 1.7 μm)\n柱温：40 ℃\n流动相：\n\nA相:乙腈:水(95:5)+10 mM甲酸铵\nB相:乙腈:水(50:50)+10 mM甲酸铵\n\n洗脱程序：Table 2\n\n\n\n\nTable 2: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nC%\nCurve\n\n\n\n\n0.000\n0.25\n0.0\n0.0\n5\n\n\n10.000\n0.25\n35.0\n0.0\n5\n\n\n10.100\n0.25\n100.0\n0.0\n5\n\n\n13.000\n0.25\n100.0\n0.0\n5\n\n\n13.100\n0.25\n0.0\n0.0\n5\n\n\n22.000\n0.25\n0.0\n0.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 1e5\nMIT: 50 ms\nTop N:5; Isolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 8.00e3\nIntensity thresh: 1.6e5\nDynamic exclus: 10.0s",
     "crumbs": [
       "Home",
       "U3000",
