@@ -57,66 +57,11 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Lipid Website",
+    "objectID": "data_analysis/pre-data.html",
+    "href": "data_analysis/pre-data.html",
+    "title": "pre-data",
     "section": "",
-    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang2024,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  date = {2024-08-25},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. 2024. “Lipid Website.” August 25, 2024. https://hswl1314.github.io/lipid_website/."
-  },
-  {
-    "objectID": "data_analysis/LipidSig.html",
-    "href": "data_analysis/LipidSig.html",
-    "title": "LipidSig",
-    "section": "",
-    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "LipidSig"
-    ]
-  },
-  {
-    "objectID": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
-    "href": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
-    "title": "LipidSig",
-    "section": "",
-    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "LipidSig"
-    ]
-  },
-  {
-    "objectID": "data_analysis/lipID.html",
-    "href": "data_analysis/lipID.html",
-    "title": "lipID",
-    "section": "",
-    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "lipID"
-    ]
-  },
-  {
-    "objectID": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
-    "href": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
-    "title": "lipID",
-    "section": "",
-    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "lipID"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "模版地址\n\nThank you to Dr. Duan junhong for providing study notes on markdown.Duan’s github\n\n\n Back to top"
+    "text": "Waiting for update!!!\n\n\n\n Back to top"
   },
   {
     "objectID": "data_analysis/lipidr.html",
@@ -143,11 +88,66 @@
     ]
   },
   {
-    "objectID": "data_analysis/pre-data.html",
-    "href": "data_analysis/pre-data.html",
-    "title": "pre-data",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Waiting for update!!!\n\n\n\n Back to top"
+    "text": "模版地址\n\nThank you to Dr. Duan junhong for providing study notes on markdown.Duan’s github\n\n\n Back to top"
+  },
+  {
+    "objectID": "data_analysis/lipID.html",
+    "href": "data_analysis/lipID.html",
+    "title": "lipID",
+    "section": "",
+    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "lipID"
+    ]
+  },
+  {
+    "objectID": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
+    "href": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
+    "title": "lipID",
+    "section": "",
+    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "lipID"
+    ]
+  },
+  {
+    "objectID": "data_analysis/LipidSig.html",
+    "href": "data_analysis/LipidSig.html",
+    "title": "LipidSig",
+    "section": "",
+    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "LipidSig"
+    ]
+  },
+  {
+    "objectID": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
+    "href": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
+    "title": "LipidSig",
+    "section": "",
+    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "LipidSig"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lipid Website",
+    "section": "",
+    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang2024,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  date = {2024-09-02},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. 2024. “Lipid Website.” September 2, 2024. https://hswl1314.github.io/lipid_website/."
   },
   {
     "objectID": "lipid_method/Oxidized_Phospholipidomics.html",
