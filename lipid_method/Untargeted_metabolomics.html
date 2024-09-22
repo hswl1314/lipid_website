@@ -33,7 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../data_analysis/lipID.html" rel="next">
-<link href="../lipid_method/Oxidized_Phospholipidomics.html" rel="prev">
+<link href="../lipid_method/Untargeted_lipidomics.html" rel="prev">
 <link href="../images/logo.jpg" rel="icon" type="image/jpeg">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -121,6 +121,10 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../lipid_method/Oxidized_Phospholipidomics.html">
  <span class="dropdown-text">Oxidized Phospholipidomics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../lipid_method/Untargeted_lipidomics.html">
+ <span class="dropdown-text">Untargeted lipidomics</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../lipid_method/Untargeted_metabolomics.html">
@@ -265,6 +269,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../lipid_method/Untargeted_lipidomics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">脂质组学</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../lipid_method/Untargeted_metabolomics.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">非靶向代谢</span></a>
   </div>
@@ -371,32 +381,51 @@ ul.task-list li input[type="checkbox"] {
 <section id="组织极性代谢物提取方案" class="level3" data-number="1.1">
 <h3 data-number="1.1" class="anchored" data-anchor-id="组织极性代谢物提取方案"><span class="header-section-number">1.1</span> 组织（极性代谢物提取方案）</h3>
 <ol type="1">
-<li><p>向20 mg组织中加入200 μL H<sub>2</sub>O，并冰上均匀化组织</p></li>
-<li><p>添加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d8和L-Leucine-d3各2 μL），涡旋10 s</p></li>
-<li><p>添加800 μL MeOH:ACN（v:v, 1:1），涡旋30 s，在冰水浴中超声10 min</p></li>
+<li><p>向<code>20 mg</code>组织中加入<code>200 μL</code> <strong>H<sub>2</sub>O</strong>，并冰上均匀化组织</p></li>
+<li><p>添加入<code>2 μL</code>的IS溶液（母液浓度均为<strong>10 μg/mL</strong>的<code>L-Phenyl-d8</code><strong>2 μL</strong>），涡旋10 s</p></li>
+<li><p>添加<strong>800 μL</strong> <code>MeOH:ACN</code>（v:v, 1:1），涡旋30 s，在冰水浴中超声10 mins</p></li>
 <li><p>在-20 ℃下静置1 h，以促进蛋白质沉淀</p></li>
-<li><p>在4 ℃下，13000 rpm离心15 min</p></li>
-<li><p>取上清液，用真空浓缩器/氮吹仪在4 ℃下蒸发至干</p></li>
+<li><p>在<code>4 ℃</code>，<code>13000 rpm</code>离心15 mins</p></li>
+<li><p>取上清液，用真空浓缩器/氮吹仪在<code>4 ℃</code>下蒸发至干</p></li>
 <li><p>干燥样品在-80 ℃下长期储存</p></li>
-<li><p>在LC-MS分析前，使用100 μL ACN:H<sub>2</sub>O（v:v, 1:1）重悬干燥样品，涡旋30 s，在冰浴中超声10 min,使其充分溶解</p></li>
-<li><p>在4 ℃下，13000 rpm离心15 min</p></li>
-<li><p>将上清液转移至内衬管中，放入LC样品瓶中（若使用RP模式，需要将样品用ddH<sub>2</sub>O稀释一倍，使得ACN:H<sub>2</sub>O为1:3以避免溶剂效应），在4 ℃下储存，进行LC-MS分析</p></li>
+<li><p>在LC-MS分析前，使用<strong>100 μL </strong><code>ACN:H~2~O</code><strong>（v:v, 1:1）</strong>重悬干燥样品，涡旋30 s，在冰浴中超声10 mins,使其充分溶解</p></li>
+<li><p>在<code>4 ℃</code>，<code>13000 rpm</code>离心15 mins</p></li>
+<li><p>将上清液转移至内衬管中，放入LC样品瓶中（若使用RP模式，需要将样品用ddH<sub>2</sub>O稀释一倍，使得ACN:H<sub>2</sub>O为1:3以避免溶剂效应），在4 ℃下储存，上机前加入(母液浓度为<strong>10 μg/mL</strong>的<strong>2 μL</strong><code>L-Leucine-d3</code>)进行LC-MS分析</p></li>
 </ol>
 </section>
 <section id="血浆血清极性代谢物提取方案" class="level3" data-number="1.2">
 <h3 data-number="1.2" class="anchored" data-anchor-id="血浆血清极性代谢物提取方案"><span class="header-section-number">1.2</span> 血浆/血清（极性代谢物提取方案）</h3>
 <ol type="1">
-<li><p>向100 μL血浆/血清中加入<strong>2 μL</strong>的IS溶液（母液浓度均为<strong>10 μg/mL</strong>的<strong>L-Phenyl-d8</strong>和<strong>L-Leucine-d3</strong>各<strong>2 μL</strong>），涡旋10 s</p></li>
-<li><p>添加<strong>400 μL MeOH/ACN（v:v, 1:1）</strong>，涡旋30 s</p></li>
-<li><p>在<strong>冰水浴</strong>中超声10 min</p></li>
-<li><p>在-20 ℃下静置1 h，以促进蛋白质沉淀</p></li>
-<li><p>在13000 rpm和4℃下离心15分钟</p></li>
-<li><p>取上清液，用真空浓缩器/氮吹仪在4℃下蒸发至干</p></li>
+<li>向<code>100 μL</code>血浆/血清中加入<strong>2 μL</strong>的IS溶液（母液浓度为<strong>10 μg/mL</strong>的<code>L-Phenyl-d8</code><strong>2 μL</strong>），涡旋10 s</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>一起提取就只加L-Phenyl-d8和DHA-d5</strong><br>
+</li>
+<li><strong>然后分两份，一份测代谢再加L-Leucine-d3。另一份测脂肪酸加混合内标</strong></li>
+</ul>
+</div>
+</div>
+<ol start="2" type="1">
+<li><p>添加<strong>400 μL</strong> <code>MeOH/ACN</code><strong>（v:v, 1:1）</strong>，涡旋<code>30 s</code></p></li>
+<li><p>在<strong>冰水浴</strong>中超声<code>10 mins</code></p></li>
+<li><p>在<code>-20 ℃</code>下静置<code>1 h</code>，以促进蛋白质沉淀</p></li>
+<li><p>在<code>13000 rpm</code>和<code>4℃</code>下离心15分钟</p></li>
+<li><p>取上清液，用真空浓缩器/氮吹仪在<code>4℃</code>下蒸发至干</p></li>
 <li><p>将干燥的样品保持在-80℃下长期保存</p></li>
 <li><p>在LC-MS分析之前，用<strong>100 μL ACN:H<sub>2</sub>O（v:v，1:1）</strong>重新配制干燥的样品</p></li>
-<li><p>涡流30 s，在水浴中在4℃下超声处理10 min</p></li>
-<li><p>在13000 rpm和4℃下离心15分钟</p></li>
-<li><p>将上清液放入LC样品瓶中，在4℃下储存，用于LC-MS分析</p></li>
+<li><p>涡流<code>30 s</code>，在水浴中在<code>4℃</code>下超声处理<code>10 mins</code></p></li>
+<li><p>在<code>13000 rpm</code>和<code>4℃下</code>离心15分钟</p></li>
+<li><p>将上清液放入LC样品瓶中，在4℃下储存，上机前加入(母液浓度为<strong>10 μg/mL</strong>的<strong>2 μL</strong><code>L-Leucine-d3</code>)用于LC-MS分析</p></li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -1108,8 +1137,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../lipid_method/Oxidized_Phospholipidomics.html" class="pagination-link" aria-label="氧化磷脂">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">氧化磷脂</span>
+      <a href="../lipid_method/Untargeted_lipidomics.html" class="pagination-link" aria-label="脂质组学">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">脂质组学</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

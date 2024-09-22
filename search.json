@@ -18,7 +18,7 @@
     "href": "lipid_method/Untargeted_metabolomics.html",
     "title": "Untargeted metabolomics",
     "section": "",
-    "text": "向20 mg组织中加入200 μL H2O，并冰上均匀化组织\n添加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d8和L-Leucine-d3各2 μL），涡旋10 s\n添加800 μL MeOH:ACN（v:v, 1:1），涡旋30 s，在冰水浴中超声10 min\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在4 ℃下，13000 rpm离心15 min\n取上清液，用真空浓缩器/氮吹仪在4 ℃下蒸发至干\n干燥样品在-80 ℃下长期储存\n在LC-MS分析前，使用100 μL ACN:H2O（v:v, 1:1）重悬干燥样品，涡旋30 s，在冰浴中超声10 min,使其充分溶解\n在4 ℃下，13000 rpm离心15 min\n将上清液转移至内衬管中，放入LC样品瓶中（若使用RP模式，需要将样品用ddH2O稀释一倍，使得ACN:H2O为1:3以避免溶剂效应），在4 ℃下储存，进行LC-MS分析\n\n\n\n\n\n向100 μL血浆/血清中加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d8和L-Leucine-d3各2 μL），涡旋10 s\n添加400 μL MeOH/ACN（v:v, 1:1），涡旋30 s\n在冰水浴中超声10 min\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在13000 rpm和4℃下离心15分钟\n取上清液，用真空浓缩器/氮吹仪在4℃下蒸发至干\n将干燥的样品保持在-80℃下长期保存\n在LC-MS分析之前，用100 μL ACN:H2O（v:v，1:1）重新配制干燥的样品\n涡流30 s，在水浴中在4℃下超声处理10 min\n在13000 rpm和4℃下离心15分钟\n将上清液放入LC样品瓶中，在4℃下储存，用于LC-MS分析\n\n\n\n\n\n\n\nNote\n\n\n\n\n汇集QC是通过将5-10 μL的每个生物样品汇集并混合到一个QC样品中来制备的。\n\n若为尿液标本，将第2步中的400 μL MeOH/ACN（v:v, 1:1）换成400 μL MeOH即可，其他操作步骤不变。",
+    "text": "向20 mg组织中加入200 μL H2O，并冰上均匀化组织\n添加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d82 μL），涡旋10 s\n添加800 μL MeOH:ACN（v:v, 1:1），涡旋30 s，在冰水浴中超声10 mins\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在4 ℃，13000 rpm离心15 mins\n取上清液，用真空浓缩器/氮吹仪在4 ℃下蒸发至干\n干燥样品在-80 ℃下长期储存\n在LC-MS分析前，使用100 μL ACN:H~2~O（v:v, 1:1）重悬干燥样品，涡旋30 s，在冰浴中超声10 mins,使其充分溶解\n在4 ℃，13000 rpm离心15 mins\n将上清液转移至内衬管中，放入LC样品瓶中（若使用RP模式，需要将样品用ddH2O稀释一倍，使得ACN:H2O为1:3以避免溶剂效应），在4 ℃下储存，上机前加入(母液浓度为10 μg/mL的2 μLL-Leucine-d3)进行LC-MS分析\n\n\n\n\n\n向100 μL血浆/血清中加入2 μL的IS溶液（母液浓度为10 μg/mL的L-Phenyl-d82 μL），涡旋10 s\n\n\n\n\n\n\n\nTip\n\n\n\n\n一起提取就只加L-Phenyl-d8和DHA-d5\n\n然后分两份，一份测代谢再加L-Leucine-d3。另一份测脂肪酸加混合内标\n\n\n\n\n添加400 μL MeOH/ACN（v:v, 1:1），涡旋30 s\n在冰水浴中超声10 mins\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在13000 rpm和4℃下离心15分钟\n取上清液，用真空浓缩器/氮吹仪在4℃下蒸发至干\n将干燥的样品保持在-80℃下长期保存\n在LC-MS分析之前，用100 μL ACN:H2O（v:v，1:1）重新配制干燥的样品\n涡流30 s，在水浴中在4℃下超声处理10 mins\n在13000 rpm和4℃下离心15分钟\n将上清液放入LC样品瓶中，在4℃下储存，上机前加入(母液浓度为10 μg/mL的2 μLL-Leucine-d3)用于LC-MS分析\n\n\n\n\n\n\n\nNote\n\n\n\n\n汇集QC是通过将5-10 μL的每个生物样品汇集并混合到一个QC样品中来制备的。\n\n若为尿液标本，将第2步中的400 μL MeOH/ACN（v:v, 1:1）换成400 μL MeOH即可，其他操作步骤不变。",
     "crumbs": [
       "Home",
       "U3000",
@@ -30,7 +30,7 @@
     "href": "lipid_method/Untargeted_metabolomics.html#提取",
     "title": "Untargeted metabolomics",
     "section": "",
-    "text": "向20 mg组织中加入200 μL H2O，并冰上均匀化组织\n添加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d8和L-Leucine-d3各2 μL），涡旋10 s\n添加800 μL MeOH:ACN（v:v, 1:1），涡旋30 s，在冰水浴中超声10 min\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在4 ℃下，13000 rpm离心15 min\n取上清液，用真空浓缩器/氮吹仪在4 ℃下蒸发至干\n干燥样品在-80 ℃下长期储存\n在LC-MS分析前，使用100 μL ACN:H2O（v:v, 1:1）重悬干燥样品，涡旋30 s，在冰浴中超声10 min,使其充分溶解\n在4 ℃下，13000 rpm离心15 min\n将上清液转移至内衬管中，放入LC样品瓶中（若使用RP模式，需要将样品用ddH2O稀释一倍，使得ACN:H2O为1:3以避免溶剂效应），在4 ℃下储存，进行LC-MS分析\n\n\n\n\n\n向100 μL血浆/血清中加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d8和L-Leucine-d3各2 μL），涡旋10 s\n添加400 μL MeOH/ACN（v:v, 1:1），涡旋30 s\n在冰水浴中超声10 min\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在13000 rpm和4℃下离心15分钟\n取上清液，用真空浓缩器/氮吹仪在4℃下蒸发至干\n将干燥的样品保持在-80℃下长期保存\n在LC-MS分析之前，用100 μL ACN:H2O（v:v，1:1）重新配制干燥的样品\n涡流30 s，在水浴中在4℃下超声处理10 min\n在13000 rpm和4℃下离心15分钟\n将上清液放入LC样品瓶中，在4℃下储存，用于LC-MS分析\n\n\n\n\n\n\n\nNote\n\n\n\n\n汇集QC是通过将5-10 μL的每个生物样品汇集并混合到一个QC样品中来制备的。\n\n若为尿液标本，将第2步中的400 μL MeOH/ACN（v:v, 1:1）换成400 μL MeOH即可，其他操作步骤不变。",
+    "text": "向20 mg组织中加入200 μL H2O，并冰上均匀化组织\n添加入2 μL的IS溶液（母液浓度均为10 μg/mL的L-Phenyl-d82 μL），涡旋10 s\n添加800 μL MeOH:ACN（v:v, 1:1），涡旋30 s，在冰水浴中超声10 mins\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在4 ℃，13000 rpm离心15 mins\n取上清液，用真空浓缩器/氮吹仪在4 ℃下蒸发至干\n干燥样品在-80 ℃下长期储存\n在LC-MS分析前，使用100 μL ACN:H~2~O（v:v, 1:1）重悬干燥样品，涡旋30 s，在冰浴中超声10 mins,使其充分溶解\n在4 ℃，13000 rpm离心15 mins\n将上清液转移至内衬管中，放入LC样品瓶中（若使用RP模式，需要将样品用ddH2O稀释一倍，使得ACN:H2O为1:3以避免溶剂效应），在4 ℃下储存，上机前加入(母液浓度为10 μg/mL的2 μLL-Leucine-d3)进行LC-MS分析\n\n\n\n\n\n向100 μL血浆/血清中加入2 μL的IS溶液（母液浓度为10 μg/mL的L-Phenyl-d82 μL），涡旋10 s\n\n\n\n\n\n\n\nTip\n\n\n\n\n一起提取就只加L-Phenyl-d8和DHA-d5\n\n然后分两份，一份测代谢再加L-Leucine-d3。另一份测脂肪酸加混合内标\n\n\n\n\n添加400 μL MeOH/ACN（v:v, 1:1），涡旋30 s\n在冰水浴中超声10 mins\n在-20 ℃下静置1 h，以促进蛋白质沉淀\n在13000 rpm和4℃下离心15分钟\n取上清液，用真空浓缩器/氮吹仪在4℃下蒸发至干\n将干燥的样品保持在-80℃下长期保存\n在LC-MS分析之前，用100 μL ACN:H2O（v:v，1:1）重新配制干燥的样品\n涡流30 s，在水浴中在4℃下超声处理10 mins\n在13000 rpm和4℃下离心15分钟\n将上清液放入LC样品瓶中，在4℃下储存，上机前加入(母液浓度为10 μg/mL的2 μLL-Leucine-d3)用于LC-MS分析\n\n\n\n\n\n\n\nNote\n\n\n\n\n汇集QC是通过将5-10 μL的每个生物样品汇集并混合到一个QC样品中来制备的。\n\n若为尿液标本，将第2步中的400 μL MeOH/ACN（v:v, 1:1）换成400 μL MeOH即可，其他操作步骤不变。",
     "crumbs": [
       "Home",
       "U3000",
@@ -48,223 +48,6 @@
       "U3000",
       "非靶向代谢"
     ]
-  },
-  {
-    "objectID": "lipid_method/Oxidized_Phospholipidomics.html",
-    "href": "lipid_method/Oxidized_Phospholipidomics.html",
-    "title": "Oxidized Phospholipidomics",
-    "section": "",
-    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
-    "crumbs": [
-      "Home",
-      "U3000",
-      "氧化磷脂"
-    ]
-  },
-  {
-    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#提取",
-    "href": "lipid_method/Oxidized_Phospholipidomics.html#提取",
-    "title": "Oxidized Phospholipidomics",
-    "section": "",
-    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
-    "crumbs": [
-      "Home",
-      "U3000",
-      "氧化磷脂"
-    ]
-  },
-  {
-    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#定磷",
-    "href": "lipid_method/Oxidized_Phospholipidomics.html#定磷",
-    "title": "Oxidized Phospholipidomics",
-    "section": "2 定磷",
-    "text": "2 定磷\n将复溶的样品4℃下14000 rpm离心30 min并转移至另一EP管中，取10 μL定磷。\n\n\n\n\n\n\nNote\n\n\n\n注意选择合适离心管,离心使用1.5 mL离心管，2 mL离心管可能会导致样品有沉淀。\n\n\n\n2.1 试剂\n1. 1 mM NaH2PO4（Sigma Aldrich#s8282）FW:119.98\n\n\n配制：11.99 mg/100 mL ddH2O\n\n\n2. 70% HClO4（Sigma Aldrich#380083）\n\n\n因高氯酸具有极强的腐蚀性，故量取高氯酸时，需十分小心。\n\n\n3. 5% Na2MoO4·2H2O（Sigma Aldrich#M1003）\n\n\n配制：2.5 g/100 mL ddH2O，可将溶液分装，置于-20℃保存。\n\n\n4. 10%抗坏血酸（Sigma Aldrich#A5960）\n\n\n1 g/10 mL ddH2O（足够80个样品使用），现用现配，避光。\n\n\n\n\n\n\n\n警告\n\n\n\n819负20度冰箱,用完试剂请放回！！！\n\n\n\n\n2.2 原理\n在酸性环境下，定磷试剂中的钼酸钠以钼酸形式与样品中的磷酸反应生成磷钼酸，当还原剂存在时，磷钼酸会立即转变成蓝色的还原产物—钼蓝，钼蓝最大的光吸收在650-660 nm波长处。当使用抗坏血酸还原剂时，测定的最适范围为1-10 μg无机磷。（测定样品总磷量时需先使用硫酸或高氯酸将其消化为无机磷再进行测定）\n\n\n2.3 步骤\n\n将10 μL的样品置于玻璃管中，加入125 μL的70% HClO4溶液，放置于170℃油浴中加热20-40 min（依据脂质浓度调整加热时间），加热结束时，样品澄清。\n在加热样品的过程中，按照下表制备标准曲线 Table 1，各个组分需涡旋充分混匀。\n\n\n\n\n\nTable 1: 定磷配置表\n\n\n\n\n\n\n\n\n\n\n\n\n\n标准曲线\n70% HClO4\ndd H2O\n2.5% Na2Mo4·2H2O\n10% 抗坏血酸\n1mM NaH2PO4 (add last)\n\n\n\n\n0\n125μL\n825μL\n125μL\n125μL\n0μL\n\n\n4.16μM\n125μL\n820μL\n125μL\n125μL\n5μL\n\n\n12.5μM\n125μL\n810μL\n125μL\n125μL\n15μL\n\n\n20.8μM\n125μL\n800μL\n125μL\n125μL\n25μL\n\n\n29.2μM\n125μL\n790μL\n125μL\n125μL\n35μL\n\n\n37.5μM\n125μL\n780μL\n125μL\n125μL\n45μL\n\n\n54.2μM\n125μL\n760μL\n125μL\n125μL\n65μL\n\n\n\n\n\n\n\n将样品取出冷却至室温后，加入825 μL ddH2O、125 μL Na2MoO4·2H2O，最后加入125 μL 10%抗坏血酸，充分混匀。\n将样品和标准品同时放入沸水浴中加热10 min后取出放置于冰上，转移200 μL至96孔板中，使用酶标仪检测660 nm波长处的吸光度值，将所测的吸光度值代入标准曲线求得含磷浓度，进而计算磷量。",
-    "crumbs": [
-      "Home",
-      "U3000",
-      "氧化磷脂"
-    ]
-  },
-  {
-    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#制样",
-    "href": "lipid_method/Oxidized_Phospholipidomics.html#制样",
-    "title": "Oxidized Phospholipidomics",
-    "section": "3 制样",
-    "text": "3 制样\n\n固定磷量上样: 取20 nmol Pi样本放置于液相小瓶中，加入甲醇补足体积至40 μL，加入2 μL氘代PE内标。（16:0-d31-18:1 PE：母液浓度为20 μM）。\n固定体积上样: 直接取40 μL样品上样，加入2 μL氘代PE内标。\n\n\n\n\n\n\n\n友情提示\n\n\n\n是否需要制作QC样品？个人建议：制作QC！！！",
-    "crumbs": [
-      "Home",
-      "U3000",
-      "氧化磷脂"
-    ]
-  },
-  {
-    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#氧化磷脂组学液质条件",
-    "href": "lipid_method/Oxidized_Phospholipidomics.html#氧化磷脂组学液质条件",
-    "title": "Oxidized Phospholipidomics",
-    "section": "4 氧化磷脂组学液质条件",
-    "text": "4 氧化磷脂组学液质条件\n\n检测摸式：负离子\n质量范围：114-1700 Da\n液相分析条件\n\n\n色谱柱：Waters Premier ACQUITY BEH HILIC (100×2.1 mm, 1.7 μm)\n柱温：40 ℃\n流动相：\n\nA相:乙腈:水(95:5)+10 mM甲酸铵\nB相:乙腈:水(50:50)+10 mM甲酸铵\n\n洗脱程序：Table 2\n\n\n\n\nTable 2: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nC%\nCurve\n\n\n\n\n0.000\n0.25\n0.0\n0.0\n5\n\n\n10.000\n0.25\n35.0\n0.0\n5\n\n\n10.100\n0.25\n100.0\n0.0\n5\n\n\n13.000\n0.25\n100.0\n0.0\n5\n\n\n13.100\n0.25\n0.0\n0.0\n5\n\n\n22.000\n0.25\n0.0\n0.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 1e5\nMIT: 50 ms\nTop N:5; Isolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 8.00e3\nIntensity thresh: 1.6e5\nDynamic exclus: 10.0s",
-    "crumbs": [
-      "Home",
-      "U3000",
-      "氧化磷脂"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Lipid Website",
-    "section": "",
-    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang2024,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  date = {2024-09-16},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. 2024. “Lipid Website.” September 16, 2024. https://hswl1314.github.io/lipid_website/."
-  },
-  {
-    "objectID": "data_analysis/pre-data.html",
-    "href": "data_analysis/pre-data.html",
-    "title": "pre-data",
-    "section": "",
-    "text": "提问： 在R语言中，如何把列表中的多个数据框，保存到一个csv文件中，每个数据框为一个工作表。\n回答： CSV 文件格式本身并不支持多个工作表（Sheet）。如果你想将多个数据框保存到一个文件中，每个数据框对应一个工作表，可以使用 Excel 文件格式，并借助 openxlsx 或 writexl 等 R 包来实现。\n以下是使用 openxlsx 包的示例代码：\n# 安装并加载 openxlsx 包\ninstall.packages(\"openxlsx\")\nlibrary(openxlsx)\n\n# 假设你有一个包含多个数据框的列表\ndf_list &lt;- list(\n  df1 = data.frame(A = 1:5, B = letters[1:5]),\n  df2 = data.frame(X = 6:10, Y = letters[6:10])\n)\n\n# 创建一个新的 Workbook 对象\nwb &lt;- createWorkbook()\n\n# 遍历列表，将每个数据框写入不同的工作表\nfor (name in names(df_list)) {\n  addWorksheet(wb, sheetName = name)           # 添加工作表\n  writeData(wb, sheet = name, df_list[[name]]) # 写入数据\n}\n\n# 保存 Workbook 为 Excel 文件\nsaveWorkbook(wb, file = \"multiple_sheets.xlsx\", overwrite = TRUE)\n说明：\n创建数据框列表： df_list是一个包含多个数据框的列表，每个数据框都有一个名称。\n创建工作簿： 使用 createWorkbook() 创建一个新的 Excel 工作簿对象。\n添加工作表并写入数据： 使用 addWorksheet() 为每个数据框添加一个新的工作表，工作表名称对应数据框的名称。使用 writeData()将数据框写入对应的工作表中。\n保存文件： 使用 saveWorkbook() 将工作簿保存为名为 multiple_sheets.xlsx 的 Excel 文件。\n执行上述代码后，你将在当前工作目录下得到一个包含多个工作表的 Excel 文件，每个工作表包含对应的数据框数据。"
-  },
-  {
-    "objectID": "data_analysis/pre-data.html#问题一",
-    "href": "data_analysis/pre-data.html#问题一",
-    "title": "pre-data",
-    "section": "",
-    "text": "提问： 在R语言中，如何把列表中的多个数据框，保存到一个csv文件中，每个数据框为一个工作表。\n回答： CSV 文件格式本身并不支持多个工作表（Sheet）。如果你想将多个数据框保存到一个文件中，每个数据框对应一个工作表，可以使用 Excel 文件格式，并借助 openxlsx 或 writexl 等 R 包来实现。\n以下是使用 openxlsx 包的示例代码：\n# 安装并加载 openxlsx 包\ninstall.packages(\"openxlsx\")\nlibrary(openxlsx)\n\n# 假设你有一个包含多个数据框的列表\ndf_list &lt;- list(\n  df1 = data.frame(A = 1:5, B = letters[1:5]),\n  df2 = data.frame(X = 6:10, Y = letters[6:10])\n)\n\n# 创建一个新的 Workbook 对象\nwb &lt;- createWorkbook()\n\n# 遍历列表，将每个数据框写入不同的工作表\nfor (name in names(df_list)) {\n  addWorksheet(wb, sheetName = name)           # 添加工作表\n  writeData(wb, sheet = name, df_list[[name]]) # 写入数据\n}\n\n# 保存 Workbook 为 Excel 文件\nsaveWorkbook(wb, file = \"multiple_sheets.xlsx\", overwrite = TRUE)\n说明：\n创建数据框列表： df_list是一个包含多个数据框的列表，每个数据框都有一个名称。\n创建工作簿： 使用 createWorkbook() 创建一个新的 Excel 工作簿对象。\n添加工作表并写入数据： 使用 addWorksheet() 为每个数据框添加一个新的工作表，工作表名称对应数据框的名称。使用 writeData()将数据框写入对应的工作表中。\n保存文件： 使用 saveWorkbook() 将工作簿保存为名为 multiple_sheets.xlsx 的 Excel 文件。\n执行上述代码后，你将在当前工作目录下得到一个包含多个工作表的 Excel 文件，每个工作表包含对应的数据框数据。"
-  },
-  {
-    "objectID": "data_analysis/pre-data.html#问题二",
-    "href": "data_analysis/pre-data.html#问题二",
-    "title": "pre-data",
-    "section": "2 问题二",
-    "text": "2 问题二\n提问： 如何读取多个csv文件的数据框，并放到一个list中。\n回答： 你可以使用 lapply 函数结合 list.files 来读取多个 CSV 文件，并将它们存储到一个列表中。以下是具体的示例代码：\n# 设置包含 CSV 文件的目录路径\nfolder_path &lt;- \"path/to/your/csv/files\"\n\n# 获取该目录下所有 CSV 文件的完整路径\nfile_list &lt;- list.files(path = folder_path, pattern = \"\\\\.csv$\", full.names = TRUE)\n\n# 使用 lapply 读取所有 CSV 文件，并将它们存储在一个列表中\ndf_list &lt;- lapply(file_list, read.csv)\n\n# 使用文件名（不包含路径和扩展名）作为列表中数据框的名称\nnames(df_list) &lt;- tools::file_path_sans_ext(basename(file_list))\n\n# 查看列表中的数据框\nprint(df_list)\n说明：\n指定文件路径： 将 folder_path 设置为存储 CSV 文件的目录路径。\n获取文件列表：\n使用 list.files() 获取指定目录下所有以 .csv 结尾的文件。\n参数解释：path: 指定搜索的目录路径。\npattern: 使用正则表达式 \"\\\\.csv$\" 匹配所有以 .csv 结尾的文件。\nfull.names = TRUE: 返回文件的完整路径，方便后续读取。\n读取文件： 使用 lapply() 遍历文件列表，使用 read.csv() 读取每个文件，将结果存储在列表 df_list 中。\n命名列表元素： 使用 tools::file_path_sans_ext(basename(file_list))获取文件名（去除路径和扩展名），并将其作为列表中数据框的名称，方便后续访问。\n查看结果： 使用 print(df_list) 查看读取的所有数据框。\n注意： 确保在运行代码前安装并加载必要的包，例如 tools 包（通常默认安装）。此外，请确保提供的 folder_path 正确且包含你要读取的 CSV 文件。\n执行上述代码后，df_list 将是一个列表，包含目录中所有 CSV 文件的数据框，你可以通过 df_list$filename 的方式访问特定的数据框。"
-  },
-  {
-    "objectID": "data_analysis/pre-data.html#问题三",
-    "href": "data_analysis/pre-data.html#问题三",
-    "title": "pre-data",
-    "section": "3 问题三",
-    "text": "3 问题三\n提问： 如果我是我读取一个excel文件，把每个工作边变成一个数据框，然后拿这些数据框放在一个list中，每个数据框名字为工作表的名字。\n回答： 你可以使用 readxl 包来读取 Excel 文件中的每个工作表，并将它们存储在一个列表中，每个数据框的名称与其对应的工作表名称相同。下面是示例代码：\n# 安装并加载 readxl 包\ninstall.packages(\"readxl\")\nlibrary(readxl)\n\n# 指定Excel文件的路径\nfile_path &lt;- \"path/to/your/excel/file.xlsx\"\n\n# 获取文件中的所有工作表名称\nsheet_names &lt;- excel_sheets(file_path)\n\n# 使用 lapply 读取每个工作表，并存储在一个列表中\ndf_list &lt;- lapply(sheet_names, function(sheet) {\n  read_excel(file_path, sheet = sheet)\n})\n\n# 使用工作表名称作为列表中数据框的名称\nnames(df_list) &lt;- sheet_names\n\n# 查看列表中的数据框\nprint(df_list)\n说明：\n获取工作表名称： excel_sheets(file_path) 返回 Excel 文件中所有工作表的名称。\n读取工作表： 使用 lapply() 遍历每个工作表名称，read_excel(file_path, sheet = sheet) 读取对应的工作表，并将结果存储在列表 df_list 中。\n命名列表元素： 使用工作表的名称作为列表中数据框的名称，使得列表中的每个元素（数据框）都可以通过其工作表名称进行访问。\n执行上述代码后，df_list 将是一个列表，包含 Excel 文件中所有工作表的数据框，每个数据框的名称对应其工作表名称。"
-  },
-  {
-    "objectID": "data_analysis/LipidSig.html",
-    "href": "data_analysis/LipidSig.html",
-    "title": "LipidSig",
-    "section": "",
-    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "LipidSig"
-    ]
-  },
-  {
-    "objectID": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
-    "href": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
-    "title": "LipidSig",
-    "section": "",
-    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "LipidSig"
-    ]
-  },
-  {
-    "objectID": "data_analysis/lipID.html",
-    "href": "data_analysis/lipID.html",
-    "title": "lipID",
-    "section": "",
-    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "lipID"
-    ]
-  },
-  {
-    "objectID": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
-    "href": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
-    "title": "lipID",
-    "section": "",
-    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "lipID"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "模版地址\n\nThank you to Dr. Duan junhong for providing study notes on markdown.Duan’s github\n\n\n Back to top"
-  },
-  {
-    "objectID": "data_analysis/lipidr.html",
-    "href": "data_analysis/lipidr.html",
-    "title": "lipidr",
-    "section": "",
-    "text": "Note\n\n\n\n\nMore details(Mohamed and Molendijk 2023) to visit lipidr\n\n\n\n\n\n\n\n\n\n\nMohamed, Ahmed, and Jeffrey Molendijk. 2023. Lipidr: Data Mining and Analysis of Lipidomics Datasets. https://github.com/ahmohamed/lipidr.",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "lipidr"
-    ]
-  },
-  {
-    "objectID": "data_analysis/lipidr.html#lipidr-data-mining-and-analysis-of-lipidomics-datasets-in-r",
-    "href": "data_analysis/lipidr.html#lipidr-data-mining-and-analysis-of-lipidomics-datasets-in-r",
-    "title": "lipidr",
-    "section": "",
-    "text": "Note\n\n\n\n\nMore details(Mohamed and Molendijk 2023) to visit lipidr\n\n\n\n\n\n\n\n\n\n\nMohamed, Ahmed, and Jeffrey Molendijk. 2023. Lipidr: Data Mining and Analysis of Lipidomics Datasets. https://github.com/ahmohamed/lipidr.",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "lipidr"
-    ]
-  },
-  {
-    "objectID": "data_analysis/Msdial.html",
-    "href": "data_analysis/Msdial.html",
-    "title": "MSdial",
-    "section": "",
-    "text": "点击左上角file，点击New project\n\n\n\n\n质谱数据在哪个文件夹，这里就选哪个文件夹。 \n\n\n\nIonization type：LC/MS\nSeparation type：LC\nMS method type：Conventional LC/MS or data dependent MS/MS\nData type：Profile\nIon Mode：POS/NEG\ntarget omics：Metabolomics/Lipidomics\nMSDIAL一次只能处理一种模式和一种组学。氧化磷脂组学只用处理负离子模式，脂质组学和代谢组学均需分别处理正负模式。设置好，点next。 \n\n\n\n点Browse，弹出文件夹，显示空白，修改右下角的数据格式，选择.raw。导入序列中的监测QC、样品一级数据、QC二级数据。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n把样品的Type改成Sample，QC的Type改成QC，其他不用设置，默认即可。\n\n\n\n\n除了上图中标出的地方，其他设置默认即可。 \n\n\n\n正负离子设置不一样。相当于信号的门槛，超过门槛，峰才会被监测到。\n\n\n\n\n\n对齐文件：选择几个监测QC里居中的监测QC，这是建立在数据稳定的条件下进行设置的。如果数据稳定，那么这三个QC应该是稳定的，浮动不大的，所以我们就可以选择居中的QC来让所有数据进行一个对齐。\nRT的容差：一般来说设置0.12min即可（表示整体数据的RT偏移最大值和最小值之间不会超过0.24），如果想要处理结果更精确，就按照数据整体趋势来定，如果RT偏移最大值和最小值没有超过0.2，那么这里设置0.1min。按照数据的质量来调整参数，会让处理结果更好。\nMS1质量容差：0.08（固定）\n其他设置默认\n\n\n\n\n\n依据流动相来定。一般来说氧化磷脂组学和脂质组学选择M-H、M-H2O-H、M+FA-H。 \n\n\n\n当处理代谢组学和氧化磷脂组学时，这个模块的设置不用变动，默认即可；当处理脂质组学时可以进行参考。   全部设置好以后就点finish，软件就开始run。\n\n\n\n双击Alignment文件，就可以看到数据对齐后的样子。\n点击Export，点击Alignment result\n\n  \n\n\n\n\n\n\ntip\n\n\n\n如果是氧化磷脂组学，我们需要进一步处理Area表格；如果是脂质组学，就可以把Area表格拿去做去重和手动鉴定了",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "MSdial"
-    ]
-  },
-  {
-    "objectID": "data_analysis/Msdial.html#使用msdial软件将质谱数据转换为excel表格",
-    "href": "data_analysis/Msdial.html#使用msdial软件将质谱数据转换为excel表格",
-    "title": "MSdial",
-    "section": "",
-    "text": "点击左上角file，点击New project\n\n\n\n\n质谱数据在哪个文件夹，这里就选哪个文件夹。 \n\n\n\nIonization type：LC/MS\nSeparation type：LC\nMS method type：Conventional LC/MS or data dependent MS/MS\nData type：Profile\nIon Mode：POS/NEG\ntarget omics：Metabolomics/Lipidomics\nMSDIAL一次只能处理一种模式和一种组学。氧化磷脂组学只用处理负离子模式，脂质组学和代谢组学均需分别处理正负模式。设置好，点next。 \n\n\n\n点Browse，弹出文件夹，显示空白，修改右下角的数据格式，选择.raw。导入序列中的监测QC、样品一级数据、QC二级数据。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n把样品的Type改成Sample，QC的Type改成QC，其他不用设置，默认即可。\n\n\n\n\n除了上图中标出的地方，其他设置默认即可。 \n\n\n\n正负离子设置不一样。相当于信号的门槛，超过门槛，峰才会被监测到。\n\n\n\n\n\n对齐文件：选择几个监测QC里居中的监测QC，这是建立在数据稳定的条件下进行设置的。如果数据稳定，那么这三个QC应该是稳定的，浮动不大的，所以我们就可以选择居中的QC来让所有数据进行一个对齐。\nRT的容差：一般来说设置0.12min即可（表示整体数据的RT偏移最大值和最小值之间不会超过0.24），如果想要处理结果更精确，就按照数据整体趋势来定，如果RT偏移最大值和最小值没有超过0.2，那么这里设置0.1min。按照数据的质量来调整参数，会让处理结果更好。\nMS1质量容差：0.08（固定）\n其他设置默认\n\n\n\n\n\n依据流动相来定。一般来说氧化磷脂组学和脂质组学选择M-H、M-H2O-H、M+FA-H。 \n\n\n\n当处理代谢组学和氧化磷脂组学时，这个模块的设置不用变动，默认即可；当处理脂质组学时可以进行参考。   全部设置好以后就点finish，软件就开始run。\n\n\n\n双击Alignment文件，就可以看到数据对齐后的样子。\n点击Export，点击Alignment result\n\n  \n\n\n\n\n\n\ntip\n\n\n\n如果是氧化磷脂组学，我们需要进一步处理Area表格；如果是脂质组学，就可以把Area表格拿去做去重和手动鉴定了",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "MSdial"
-    ]
-  },
-  {
-    "objectID": "data_analysis/Msdial.html#使用jupyter对excel表格进行鉴定",
-    "href": "data_analysis/Msdial.html#使用jupyter对excel表格进行鉴定",
-    "title": "MSdial",
-    "section": "2 使用Jupyter对Excel表格进行鉴定",
-    "text": "2 使用Jupyter对Excel表格进行鉴定",
-    "crumbs": [
-      "Home",
-      "Data analysis",
-      "MSdial"
-    ]
-  },
-  {
-    "objectID": "gpt.html",
-    "href": "gpt.html",
-    "title": "GPT",
-    "section": "",
-    "text": "Waiting for update!!!\n\n\n\n Back to top"
   },
   {
     "objectID": "lipid_method/Oxylipins.html",
@@ -308,6 +91,259 @@
     "crumbs": [
       "Home",
       "氧化脂肪酸-7500"
+    ]
+  },
+  {
+    "objectID": "gpt.html",
+    "href": "gpt.html",
+    "title": "GPT",
+    "section": "",
+    "text": "Waiting for update!!!\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "data_analysis/Msdial.html",
+    "href": "data_analysis/Msdial.html",
+    "title": "MSdial",
+    "section": "",
+    "text": "点击左上角file，点击New project\n\n\n\n\n质谱数据在哪个文件夹，这里就选哪个文件夹。 \n\n\n\nIonization type：LC/MS\nSeparation type：LC\nMS method type：Conventional LC/MS or data dependent MS/MS\nData type：Profile\nIon Mode：POS/NEG\ntarget omics：Metabolomics/Lipidomics\nMSDIAL一次只能处理一种模式和一种组学。氧化磷脂组学只用处理负离子模式，脂质组学和代谢组学均需分别处理正负模式。设置好，点next。 \n\n\n\n点Browse，弹出文件夹，显示空白，修改右下角的数据格式，选择.raw。导入序列中的监测QC、样品一级数据、QC二级数据。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n把样品的Type改成Sample，QC的Type改成QC，其他不用设置，默认即可。\n\n\n\n\n除了上图中标出的地方，其他设置默认即可。 \n\n\n\n正负离子设置不一样。相当于信号的门槛，超过门槛，峰才会被监测到。\n\n\n\n\n\n对齐文件：选择几个监测QC里居中的监测QC，这是建立在数据稳定的条件下进行设置的。如果数据稳定，那么这三个QC应该是稳定的，浮动不大的，所以我们就可以选择居中的QC来让所有数据进行一个对齐。\nRT的容差：一般来说设置0.12min即可（表示整体数据的RT偏移最大值和最小值之间不会超过0.24），如果想要处理结果更精确，就按照数据整体趋势来定，如果RT偏移最大值和最小值没有超过0.2，那么这里设置0.1min。按照数据的质量来调整参数，会让处理结果更好。\nMS1质量容差：0.08（固定）\n其他设置默认\n\n\n\n\n\n依据流动相来定。一般来说氧化磷脂组学和脂质组学选择M-H、M-H2O-H、M+FA-H。 \n\n\n\n当处理代谢组学和氧化磷脂组学时，这个模块的设置不用变动，默认即可；当处理脂质组学时可以进行参考。   全部设置好以后就点finish，软件就开始run。\n\n\n\n双击Alignment文件，就可以看到数据对齐后的样子。\n点击Export，点击Alignment result\n\n  \n\n\n\n\n\n\ntip\n\n\n\n如果是氧化磷脂组学，我们需要进一步处理Area表格；如果是脂质组学，就可以把Area表格拿去做去重和手动鉴定了",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "MSdial"
+    ]
+  },
+  {
+    "objectID": "data_analysis/Msdial.html#使用msdial软件将质谱数据转换为excel表格",
+    "href": "data_analysis/Msdial.html#使用msdial软件将质谱数据转换为excel表格",
+    "title": "MSdial",
+    "section": "",
+    "text": "点击左上角file，点击New project\n\n\n\n\n质谱数据在哪个文件夹，这里就选哪个文件夹。 \n\n\n\nIonization type：LC/MS\nSeparation type：LC\nMS method type：Conventional LC/MS or data dependent MS/MS\nData type：Profile\nIon Mode：POS/NEG\ntarget omics：Metabolomics/Lipidomics\nMSDIAL一次只能处理一种模式和一种组学。氧化磷脂组学只用处理负离子模式，脂质组学和代谢组学均需分别处理正负模式。设置好，点next。 \n\n\n\n点Browse，弹出文件夹，显示空白，修改右下角的数据格式，选择.raw。导入序列中的监测QC、样品一级数据、QC二级数据。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n把样品的Type改成Sample，QC的Type改成QC，其他不用设置，默认即可。\n\n\n\n\n除了上图中标出的地方，其他设置默认即可。 \n\n\n\n正负离子设置不一样。相当于信号的门槛，超过门槛，峰才会被监测到。\n\n\n\n\n\n对齐文件：选择几个监测QC里居中的监测QC，这是建立在数据稳定的条件下进行设置的。如果数据稳定，那么这三个QC应该是稳定的，浮动不大的，所以我们就可以选择居中的QC来让所有数据进行一个对齐。\nRT的容差：一般来说设置0.12min即可（表示整体数据的RT偏移最大值和最小值之间不会超过0.24），如果想要处理结果更精确，就按照数据整体趋势来定，如果RT偏移最大值和最小值没有超过0.2，那么这里设置0.1min。按照数据的质量来调整参数，会让处理结果更好。\nMS1质量容差：0.08（固定）\n其他设置默认\n\n\n\n\n\n依据流动相来定。一般来说氧化磷脂组学和脂质组学选择M-H、M-H2O-H、M+FA-H。 \n\n\n\n当处理代谢组学和氧化磷脂组学时，这个模块的设置不用变动，默认即可；当处理脂质组学时可以进行参考。   全部设置好以后就点finish，软件就开始run。\n\n\n\n双击Alignment文件，就可以看到数据对齐后的样子。\n点击Export，点击Alignment result\n\n  \n\n\n\n\n\n\ntip\n\n\n\n如果是氧化磷脂组学，我们需要进一步处理Area表格；如果是脂质组学，就可以把Area表格拿去做去重和手动鉴定了",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "MSdial"
+    ]
+  },
+  {
+    "objectID": "data_analysis/Msdial.html#使用jupyter对excel表格进行鉴定",
+    "href": "data_analysis/Msdial.html#使用jupyter对excel表格进行鉴定",
+    "title": "MSdial",
+    "section": "2 使用Jupyter对Excel表格进行鉴定",
+    "text": "2 使用Jupyter对Excel表格进行鉴定",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "MSdial"
+    ]
+  },
+  {
+    "objectID": "data_analysis/lipidr.html",
+    "href": "data_analysis/lipidr.html",
+    "title": "lipidr",
+    "section": "",
+    "text": "Note\n\n\n\n\nMore details(Mohamed and Molendijk 2023) to visit lipidr\n\n\n\n\n\n\n\n\n\n\nMohamed, Ahmed, and Jeffrey Molendijk. 2023. Lipidr: Data Mining and Analysis of Lipidomics Datasets. https://github.com/ahmohamed/lipidr.",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "lipidr"
+    ]
+  },
+  {
+    "objectID": "data_analysis/lipidr.html#lipidr-data-mining-and-analysis-of-lipidomics-datasets-in-r",
+    "href": "data_analysis/lipidr.html#lipidr-data-mining-and-analysis-of-lipidomics-datasets-in-r",
+    "title": "lipidr",
+    "section": "",
+    "text": "Note\n\n\n\n\nMore details(Mohamed and Molendijk 2023) to visit lipidr\n\n\n\n\n\n\n\n\n\n\nMohamed, Ahmed, and Jeffrey Molendijk. 2023. Lipidr: Data Mining and Analysis of Lipidomics Datasets. https://github.com/ahmohamed/lipidr.",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "lipidr"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "模版地址\n\nThank you to Dr. Duan junhong for providing study notes on markdown.Duan’s github\n\n\n Back to top"
+  },
+  {
+    "objectID": "data_analysis/lipID.html",
+    "href": "data_analysis/lipID.html",
+    "title": "lipID",
+    "section": "",
+    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "lipID"
+    ]
+  },
+  {
+    "objectID": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
+    "href": "data_analysis/lipID.html#lipid-fast-lipid-identification-from-ms-ms-spectra",
+    "title": "lipID",
+    "section": "",
+    "text": "lipID is an extremely fast implementation for rule-based matching of lipid compounds from MS/MS spectra. While the package logic and libraries is based on LipidMatch package, the implementation has been completely rewritten to improve the performance (100x speed), and make it compatible with the latest R releases and tidyverse workflows.lipID also allows users to add custom libraries to search against.\nMore details to visit lipID website",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "lipID"
+    ]
+  },
+  {
+    "objectID": "data_analysis/LipidSig.html",
+    "href": "data_analysis/LipidSig.html",
+    "title": "LipidSig",
+    "section": "",
+    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "LipidSig"
+    ]
+  },
+  {
+    "objectID": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
+    "href": "data_analysis/LipidSig.html#lipidsig-2.0-integrating-lipid-characteristic-insights-into-advanced-lipidomics-data-analysis",
+    "title": "LipidSig",
+    "section": "",
+    "text": "LipidSig is the first web-based platform which integrates a comprehensive analysis for streamlined data mining of lipidomic datasets.\n\nThe user-friendly interface provides two helper functions, Data Check, ID Conversion, and six analytical functions: Profiling, Differential Expression, Enrichment, Machine Learning, Correlation and Network.\n\nThe two helper functions offer format verification for user-uploaded data, map to 9 resource IDs, and automatically assign 29 lipid characteristics based on the uploaded features.\n\nThe six analytical functions are designed for the assessment of lipid effects on biological mechanisms and provide unique aspects to analyze the lipidome profiling data based on different characteristics, including lipid class, chain length, unsaturation, hydroxyl group, and fatty acid composition. Users can perform intensive lipid analysis and create interactive plots with downloadable images and corresponding tables.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nMore details(Liu et al. 2024) to visit LipidSig\n\n\n\n\n\n\n\n\n\nLiu, Chia-Hsin, Pei-Chun Shen, Wen-Jen Lin, Hsiu-Cheng Liu, Meng-Hsin Tsai, Tzu-Ya Huang, I-Chieh Chen, et al. 2024. “LipidSig 2.0: Integrating Lipid Characteristic Insights into Advanced Lipidomics Data Analysis.” Nucleic Acids Research 52 (W1): W390–97. https://doi.org/10.1093/nar/gkae335.",
+    "crumbs": [
+      "Home",
+      "Data analysis",
+      "LipidSig"
+    ]
+  },
+  {
+    "objectID": "data_analysis/pre-data.html",
+    "href": "data_analysis/pre-data.html",
+    "title": "pre-data",
+    "section": "",
+    "text": "提问： 在R语言中，如何把列表中的多个数据框，保存到一个csv文件中，每个数据框为一个工作表。\n回答： CSV 文件格式本身并不支持多个工作表（Sheet）。如果你想将多个数据框保存到一个文件中，每个数据框对应一个工作表，可以使用 Excel 文件格式，并借助 openxlsx 或 writexl 等 R 包来实现。\n以下是使用 openxlsx 包的示例代码：\n# 安装并加载 openxlsx 包\ninstall.packages(\"openxlsx\")\nlibrary(openxlsx)\n\n# 假设你有一个包含多个数据框的列表\ndf_list &lt;- list(\n  df1 = data.frame(A = 1:5, B = letters[1:5]),\n  df2 = data.frame(X = 6:10, Y = letters[6:10])\n)\n\n# 创建一个新的 Workbook 对象\nwb &lt;- createWorkbook()\n\n# 遍历列表，将每个数据框写入不同的工作表\nfor (name in names(df_list)) {\n  addWorksheet(wb, sheetName = name)           # 添加工作表\n  writeData(wb, sheet = name, df_list[[name]]) # 写入数据\n}\n\n# 保存 Workbook 为 Excel 文件\nsaveWorkbook(wb, file = \"multiple_sheets.xlsx\", overwrite = TRUE)\n说明：\n创建数据框列表： df_list是一个包含多个数据框的列表，每个数据框都有一个名称。\n创建工作簿： 使用 createWorkbook() 创建一个新的 Excel 工作簿对象。\n添加工作表并写入数据： 使用 addWorksheet() 为每个数据框添加一个新的工作表，工作表名称对应数据框的名称。使用 writeData()将数据框写入对应的工作表中。\n保存文件： 使用 saveWorkbook() 将工作簿保存为名为 multiple_sheets.xlsx 的 Excel 文件。\n执行上述代码后，你将在当前工作目录下得到一个包含多个工作表的 Excel 文件，每个工作表包含对应的数据框数据。"
+  },
+  {
+    "objectID": "data_analysis/pre-data.html#问题一",
+    "href": "data_analysis/pre-data.html#问题一",
+    "title": "pre-data",
+    "section": "",
+    "text": "提问： 在R语言中，如何把列表中的多个数据框，保存到一个csv文件中，每个数据框为一个工作表。\n回答： CSV 文件格式本身并不支持多个工作表（Sheet）。如果你想将多个数据框保存到一个文件中，每个数据框对应一个工作表，可以使用 Excel 文件格式，并借助 openxlsx 或 writexl 等 R 包来实现。\n以下是使用 openxlsx 包的示例代码：\n# 安装并加载 openxlsx 包\ninstall.packages(\"openxlsx\")\nlibrary(openxlsx)\n\n# 假设你有一个包含多个数据框的列表\ndf_list &lt;- list(\n  df1 = data.frame(A = 1:5, B = letters[1:5]),\n  df2 = data.frame(X = 6:10, Y = letters[6:10])\n)\n\n# 创建一个新的 Workbook 对象\nwb &lt;- createWorkbook()\n\n# 遍历列表，将每个数据框写入不同的工作表\nfor (name in names(df_list)) {\n  addWorksheet(wb, sheetName = name)           # 添加工作表\n  writeData(wb, sheet = name, df_list[[name]]) # 写入数据\n}\n\n# 保存 Workbook 为 Excel 文件\nsaveWorkbook(wb, file = \"multiple_sheets.xlsx\", overwrite = TRUE)\n说明：\n创建数据框列表： df_list是一个包含多个数据框的列表，每个数据框都有一个名称。\n创建工作簿： 使用 createWorkbook() 创建一个新的 Excel 工作簿对象。\n添加工作表并写入数据： 使用 addWorksheet() 为每个数据框添加一个新的工作表，工作表名称对应数据框的名称。使用 writeData()将数据框写入对应的工作表中。\n保存文件： 使用 saveWorkbook() 将工作簿保存为名为 multiple_sheets.xlsx 的 Excel 文件。\n执行上述代码后，你将在当前工作目录下得到一个包含多个工作表的 Excel 文件，每个工作表包含对应的数据框数据。"
+  },
+  {
+    "objectID": "data_analysis/pre-data.html#问题二",
+    "href": "data_analysis/pre-data.html#问题二",
+    "title": "pre-data",
+    "section": "2 问题二",
+    "text": "2 问题二\n提问： 如何读取多个csv文件的数据框，并放到一个list中。\n回答： 你可以使用 lapply 函数结合 list.files 来读取多个 CSV 文件，并将它们存储到一个列表中。以下是具体的示例代码：\n# 设置包含 CSV 文件的目录路径\nfolder_path &lt;- \"path/to/your/csv/files\"\n\n# 获取该目录下所有 CSV 文件的完整路径\nfile_list &lt;- list.files(path = folder_path, pattern = \"\\\\.csv$\", full.names = TRUE)\n\n# 使用 lapply 读取所有 CSV 文件，并将它们存储在一个列表中\ndf_list &lt;- lapply(file_list, read.csv)\n\n# 使用文件名（不包含路径和扩展名）作为列表中数据框的名称\nnames(df_list) &lt;- tools::file_path_sans_ext(basename(file_list))\n\n# 查看列表中的数据框\nprint(df_list)\n说明：\n指定文件路径： 将 folder_path 设置为存储 CSV 文件的目录路径。\n获取文件列表：\n使用 list.files() 获取指定目录下所有以 .csv 结尾的文件。\n参数解释：path: 指定搜索的目录路径。\npattern: 使用正则表达式 \"\\\\.csv$\" 匹配所有以 .csv 结尾的文件。\nfull.names = TRUE: 返回文件的完整路径，方便后续读取。\n读取文件： 使用 lapply() 遍历文件列表，使用 read.csv() 读取每个文件，将结果存储在列表 df_list 中。\n命名列表元素： 使用 tools::file_path_sans_ext(basename(file_list))获取文件名（去除路径和扩展名），并将其作为列表中数据框的名称，方便后续访问。\n查看结果： 使用 print(df_list) 查看读取的所有数据框。\n注意： 确保在运行代码前安装并加载必要的包，例如 tools 包（通常默认安装）。此外，请确保提供的 folder_path 正确且包含你要读取的 CSV 文件。\n执行上述代码后，df_list 将是一个列表，包含目录中所有 CSV 文件的数据框，你可以通过 df_list$filename 的方式访问特定的数据框。"
+  },
+  {
+    "objectID": "data_analysis/pre-data.html#问题三",
+    "href": "data_analysis/pre-data.html#问题三",
+    "title": "pre-data",
+    "section": "3 问题三",
+    "text": "3 问题三\n提问： 如果我是我读取一个excel文件，把每个工作边变成一个数据框，然后拿这些数据框放在一个list中，每个数据框名字为工作表的名字。\n回答： 你可以使用 readxl 包来读取 Excel 文件中的每个工作表，并将它们存储在一个列表中，每个数据框的名称与其对应的工作表名称相同。下面是示例代码：\n# 安装并加载 readxl 包\ninstall.packages(\"readxl\")\nlibrary(readxl)\n\n# 指定Excel文件的路径\nfile_path &lt;- \"path/to/your/excel/file.xlsx\"\n\n# 获取文件中的所有工作表名称\nsheet_names &lt;- excel_sheets(file_path)\n\n# 使用 lapply 读取每个工作表，并存储在一个列表中\ndf_list &lt;- lapply(sheet_names, function(sheet) {\n  read_excel(file_path, sheet = sheet)\n})\n\n# 使用工作表名称作为列表中数据框的名称\nnames(df_list) &lt;- sheet_names\n\n# 查看列表中的数据框\nprint(df_list)\n说明：\n获取工作表名称： excel_sheets(file_path) 返回 Excel 文件中所有工作表的名称。\n读取工作表： 使用 lapply() 遍历每个工作表名称，read_excel(file_path, sheet = sheet) 读取对应的工作表，并将结果存储在列表 df_list 中。\n命名列表元素： 使用工作表的名称作为列表中数据框的名称，使得列表中的每个元素（数据框）都可以通过其工作表名称进行访问。\n执行上述代码后，df_list 将是一个列表，包含 Excel 文件中所有工作表的数据框，每个数据框的名称对应其工作表名称。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lipid Website",
+    "section": "",
+    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang2024,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  date = {2024-09-22},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. 2024. “Lipid Website.” September 22, 2024. https://hswl1314.github.io/lipid_website/."
+  },
+  {
+    "objectID": "lipid_method/Oxidized_Phospholipidomics.html",
+    "href": "lipid_method/Oxidized_Phospholipidomics.html",
+    "title": "Oxidized Phospholipidomics",
+    "section": "",
+    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "氧化磷脂"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#sec-Oxidized_Phospholipidomics",
+    "href": "lipid_method/Oxidized_Phospholipidomics.html#sec-Oxidized_Phospholipidomics",
+    "title": "Oxidized Phospholipidomics",
+    "section": "",
+    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "氧化磷脂"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#定磷",
+    "href": "lipid_method/Oxidized_Phospholipidomics.html#定磷",
+    "title": "Oxidized Phospholipidomics",
+    "section": "2 定磷",
+    "text": "2 定磷\n将复溶的样品4℃下14000 rpm离心30 min并转移至另一EP管中，取10 μL定磷。\n\n\n\n\n\n\nNote\n\n\n\n注意选择合适离心管,离心使用1.5 mL离心管，2 mL离心管可能会导致样品有沉淀。\n\n\n\n2.1 试剂\n1. 1 mM NaH2PO4（Sigma Aldrich#s8282）FW:119.98\n\n\n配制：11.99 mg/100 mL ddH2O\n\n\n2. 70% HClO4（Sigma Aldrich#380083）\n\n\n因高氯酸具有极强的腐蚀性，故量取高氯酸时，需十分小心。\n\n\n3. 5% Na2MoO4·2H2O（Sigma Aldrich#M1003）\n\n\n配制：2.5 g/100 mL ddH2O，可将溶液分装，置于-20℃保存。\n\n\n4. 10%抗坏血酸（Sigma Aldrich#A5960）\n\n\n1 g/10 mL ddH2O（足够80个样品使用），现用现配，避光。\n\n\n\n\n\n\n\n警告\n\n\n\n819负20度冰箱,用完试剂请放回！！！\n\n\n\n\n2.2 原理\n在酸性环境下，定磷试剂中的钼酸钠以钼酸形式与样品中的磷酸反应生成磷钼酸，当还原剂存在时，磷钼酸会立即转变成蓝色的还原产物—钼蓝，钼蓝最大的光吸收在650-660 nm波长处。当使用抗坏血酸还原剂时，测定的最适范围为1-10 μg无机磷。（测定样品总磷量时需先使用硫酸或高氯酸将其消化为无机磷再进行测定）\n\n\n2.3 步骤\n\n将10 μL的样品置于玻璃管中，加入125 μL的70% HClO4溶液，放置于170℃油浴中加热20-40 min（依据脂质浓度调整加热时间），加热结束时，样品澄清。\n在加热样品的过程中，按照下表制备标准曲线 Table 1，各个组分需涡旋充分混匀。\n\n\n\n\n\nTable 1: 定磷配置表\n\n\n\n\n\n\n\n\n\n\n\n\n\n标准曲线\n70% HClO4\ndd H2O\n2.5% Na2Mo4·2H2O\n10% 抗坏血酸\n1mM NaH2PO4 (add last)\n\n\n\n\n0\n125μL\n825μL\n125μL\n125μL\n0μL\n\n\n4.16μM\n125μL\n820μL\n125μL\n125μL\n5μL\n\n\n12.5μM\n125μL\n810μL\n125μL\n125μL\n15μL\n\n\n20.8μM\n125μL\n800μL\n125μL\n125μL\n25μL\n\n\n29.2μM\n125μL\n790μL\n125μL\n125μL\n35μL\n\n\n37.5μM\n125μL\n780μL\n125μL\n125μL\n45μL\n\n\n54.2μM\n125μL\n760μL\n125μL\n125μL\n65μL\n\n\n\n\n\n\n\n将样品取出冷却至室温后，加入825 μL ddH2O、125 μL Na2MoO4·2H2O，最后加入125 μL 10%抗坏血酸，充分混匀。\n将样品和标准品同时放入沸水浴中加热10 min后取出放置于冰上，转移200 μL至96孔板中，使用酶标仪检测660 nm波长处的吸光度值，将所测的吸光度值代入标准曲线求得含磷浓度，进而计算磷量。",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "氧化磷脂"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#制样",
+    "href": "lipid_method/Oxidized_Phospholipidomics.html#制样",
+    "title": "Oxidized Phospholipidomics",
+    "section": "3 制样",
+    "text": "3 制样\n\n固定磷量上样: 取20 nmol Pi样本放置于液相小瓶中，加入甲醇补足体积至40 μL，加入2 μL氘代PE内标。（16:0-d31-18:1 PE：母液浓度为20 μM）。\n固定体积上样: 直接取40 μL样品上样，加入2 μL氘代PE内标。\n\n\n\n\n\n\n\n友情提示\n\n\n\n是否需要制作QC样品？个人建议：制作QC！！！",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "氧化磷脂"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Oxidized_Phospholipidomics.html#氧化磷脂组学液质条件",
+    "href": "lipid_method/Oxidized_Phospholipidomics.html#氧化磷脂组学液质条件",
+    "title": "Oxidized Phospholipidomics",
+    "section": "4 氧化磷脂组学液质条件",
+    "text": "4 氧化磷脂组学液质条件\n\n检测摸式：负离子\n质量范围：114-1700 Da\n液相分析条件\n\n\n色谱柱：Waters Premier ACQUITY BEH HILIC (100×2.1 mm, 1.7 μm)\n柱温：40 ℃\n流动相：\n\nA相:乙腈:水(95:5)+10 mM甲酸铵\nB相:乙腈:水(50:50)+10 mM甲酸铵\n\n洗脱程序：Table 2\n\n\n\n\nTable 2: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.25\n0.0\n5\n\n\n10.000\n0.25\n35.0\n5\n\n\n10.100\n0.25\n100.0\n5\n\n\n13.000\n0.25\n100.0\n5\n\n\n13.100\n0.25\n0.0\n5\n\n\n22.000\n0.25\n0.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 1e5\nMIT: 50 ms\nTop N:5; Isolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 8.00e3\nIntensity thresh: 1.6e5\nDynamic exclus: 10.0s",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "氧化磷脂"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Untargeted_lipidomics.html",
+    "href": "lipid_method/Untargeted_lipidomics.html",
+    "title": "Untargeted lipidomics",
+    "section": "",
+    "text": "提取方法请参考氧化磷脂",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "脂质组学"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Untargeted_lipidomics.html#提取",
+    "href": "lipid_method/Untargeted_lipidomics.html#提取",
+    "title": "Untargeted lipidomics",
+    "section": "",
+    "text": "提取方法请参考氧化磷脂",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "脂质组学"
+    ]
+  },
+  {
+    "objectID": "lipid_method/Untargeted_lipidomics.html#氧化磷脂组学液质条件",
+    "href": "lipid_method/Untargeted_lipidomics.html#氧化磷脂组学液质条件",
+    "title": "Untargeted lipidomics",
+    "section": "2 氧化磷脂组学液质条件",
+    "text": "2 氧化磷脂组学液质条件\n\n检测摸式：正、负离子\n质量范围：114-1700 Da\n液相分析条件\n\n\n色谱柱：Waters ACQUITY Premier HSST3 (2.1×100 mm, 1.8 μm)\n柱温：40 ℃\n流动相：\n\nA相:乙腈:水(1:1)+10 mM甲酸铵+0.01%氨水\nB相:异丙醇:乙腈(9:1)+10 mM甲酸铵+0.01%氨水\n\n洗脱程序：Table 1\n\n\n\n\nTable 1: 洗脱程序\n\n\n\n\n\nTime[mins]\nFlow[ml/min]\nB%\nCurve\n\n\n\n\n0.000\n0.3\n40.0\n5\n\n\n1.000\n0.3\n40.0\n5\n\n\n8.000\n0.3\n85.0\n5\n\n\n11.000\n0.3\n99.0\n5\n\n\n14.000\n0.3\n99.0\n5\n\n\n14.100\n0.3\n40.0\n5\n\n\n20.000\n0.3\n40.0\n5\n\n\n\n\n\n\n\n进样量：2 μL(按具体情况调整)\n\n\n质谱分析条件\n\n\n源气参数：\n\n离子源：电喷雾离子化源（ESI）\nSpray Voltage：正离子, 3.0 kV 负离子, -2.8 kV\nS-lens RF level：65\nCapillary temperature：350 ℃\nAux gas heater temp：320 ℃\n鞘气：30 arb\n辅助气：15 arb\n反吹气：0 arb\n\n质谱采集参数：请考虑是否需要采集二级。\n\nFull MS: Resolution: 70000\nAGC: 3e6\nMIT: 100 ms\nFull MS/dd-MS2: Resolution: 17500\nAGC: 1e5\nMIT: 60 ms\nTop N:6; Isolation window:1.0m/z\n(N)CE:20, 30, 40\ndd Settings: Minimum AGC: 1.20e3\nIntensity thresh: 2.0e4\nApex trigger: 2 to 4s\nDynamic exclus: 8.0s",
+    "crumbs": [
+      "Home",
+      "U3000",
+      "脂质组学"
     ]
   },
   {
