@@ -129,7 +129,7 @@
     "href": "data_analysis/Msdial.html#使用jupyter对excel表格进行鉴定",
     "title": "MSdial",
     "section": "2 使用Jupyter对Excel表格进行鉴定",
-    "text": "2 使用Jupyter对Excel表格进行鉴定",
+    "text": "2 使用Jupyter对Excel表格进行鉴定\n\n2.1 点击Browse加载MSdial导出的csv文件（通过txt转化）\n\n\n\n2.2 上传成功后，更改样品数量为130个，点击Start Processing\n\n\n\n2.3 Processing completed完成，下载input1和input2",
     "crumbs": [
       "Home",
       "Data analysis",
@@ -248,7 +248,7 @@
     "href": "index.html",
     "title": "Lipid Website",
     "section": "",
-    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang2024,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  date = {2024-09-22},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. 2024. “Lipid Website.” September 22, 2024. https://hswl1314.github.io/lipid_website/."
+    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang2024,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  date = {2024-09-26},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. 2024. “Lipid Website.” September 26, 2024. https://hswl1314.github.io/lipid_website/."
   },
   {
     "objectID": "lipid_method/Oxidized_Phospholipidomics.html",
