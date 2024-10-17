@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="LWL">
+<meta name="dcterms.date" content="2024-10-02">
 
-<title>GPT – Lipid Website</title>
+<title>非靶检测 – Lipid Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +22,50 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../lipid_method/Oxylipins.html" rel="next">
+<link href="../lipid_method/method.html" rel="prev">
+<link href="../images/logo.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,10 +108,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.jpg" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.jpg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Lipid Website</span>
     </a>
   </div>
@@ -98,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -107,27 +131,27 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-lipid-method">    
         <li>
-    <a class="dropdown-item" href="./lipid_method/method.html">
+    <a class="dropdown-item" href="../lipid_method/method.html">
  <span class="dropdown-text">Method</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lipid_method/intro.html">
+    <a class="dropdown-item" href="../lipid_method/intro.html">
  <span class="dropdown-text">非靶检测</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lipid_method/Oxylipins.html">
+    <a class="dropdown-item" href="../lipid_method/Oxylipins.html">
  <span class="dropdown-text">Oxylipins</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lipid_method/Oxidized_Phospholipidomics.html">
+    <a class="dropdown-item" href="../lipid_method/Oxidized_Phospholipidomics.html">
  <span class="dropdown-text">Oxidized Phospholipidomics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lipid_method/Untargeted_lipidomics.html">
+    <a class="dropdown-item" href="../lipid_method/Untargeted_lipidomics.html">
  <span class="dropdown-text">Untargeted lipidomics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lipid_method/Untargeted_metabolomics.html">
+    <a class="dropdown-item" href="../lipid_method/Untargeted_metabolomics.html">
  <span class="dropdown-text">Untargeted metabolomics</span></a>
   </li>  
     </ul>
@@ -138,23 +162,23 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data-analysis">    
         <li>
-    <a class="dropdown-item" href="./data_analysis/pre-data.html">
+    <a class="dropdown-item" href="../data_analysis/pre-data.html">
  <span class="dropdown-text">pre-data</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./data_analysis/lipID.html">
+    <a class="dropdown-item" href="../data_analysis/lipID.html">
  <span class="dropdown-text">lipID</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./data_analysis/lipidr.html">
+    <a class="dropdown-item" href="../data_analysis/lipidr.html">
  <span class="dropdown-text">lipidr</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./data_analysis/LipidSig.html">
+    <a class="dropdown-item" href="../data_analysis/LipidSig.html">
  <span class="dropdown-text">LipidSig</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./data_analysis/Msdial.html">
+    <a class="dropdown-item" href="../data_analysis/Msdial.html">
  <span class="dropdown-text">MSdial</span></a>
   </li>  
     </ul>
@@ -165,13 +189,13 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-chatgpt">    
         <li>
-    <a class="dropdown-item" href="./gpt.html">
+    <a class="dropdown-item" href="../gpt.html">
  <span class="dropdown-text">GPT</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -220,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">GPT</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lipid_method/intro.html">质谱简介</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -242,19 +266,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lipid_method/method.html" class="sidebar-item-text sidebar-link">
+  <a href="../lipid_method/method.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">方法选择</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lipid_method/intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../lipid_method/intro.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">质谱简介</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lipid_method/Oxylipins.html" class="sidebar-item-text sidebar-link">
+  <a href="../lipid_method/Oxylipins.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">氧化脂肪酸-7500</span></a>
   </div>
 </li>
@@ -269,19 +293,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lipid_method/Oxidized_Phospholipidomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../lipid_method/Oxidized_Phospholipidomics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">氧化磷脂</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lipid_method/Untargeted_lipidomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../lipid_method/Untargeted_lipidomics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">脂质组学</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lipid_method/Untargeted_metabolomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../lipid_method/Untargeted_metabolomics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">非靶向代谢</span></a>
   </div>
 </li>
@@ -298,25 +322,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_analysis/lipID.html" class="sidebar-item-text sidebar-link">
+  <a href="../data_analysis/lipID.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">lipID</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_analysis/lipidr.html" class="sidebar-item-text sidebar-link">
+  <a href="../data_analysis/lipidr.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">lipidr</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_analysis/LipidSig.html" class="sidebar-item-text sidebar-link">
+  <a href="../data_analysis/LipidSig.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LipidSig</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_analysis/Msdial.html" class="sidebar-item-text sidebar-link">
+  <a href="../data_analysis/Msdial.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MSdial</span></a>
   </div>
 </li>
@@ -330,27 +354,64 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\images/tiaotiao.jpg" class="img-fluid figure-img"></p>
+<p><img src="..\images/tiaotiao.jpg" class="img-fluid figure-img"></p>
 <figcaption>She is TiaoTiao!</figcaption>
 </figure>
 </div>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#鉴定分级" id="toc-鉴定分级" class="nav-link active" data-scroll-target="#鉴定分级"><span class="header-section-number">1</span> 鉴定分级</a>
+  <ul class="collapse">
+  <li><a href="#levels-1-and-2-structure-identification" id="toc-levels-1-and-2-structure-identification" class="nav-link" data-scroll-target="#levels-1-and-2-structure-identification"><span class="header-section-number">1.1</span> Levels 1 and 2: Structure Identification</a>
+  <ul class="collapse">
+  <li><a href="#level-1" id="toc-level-1" class="nav-link" data-scroll-target="#level-1"><span class="header-section-number">1.1.1</span> Level 1</a></li>
+  <li><a href="#level-2" id="toc-level-2" class="nav-link" data-scroll-target="#level-2"><span class="header-section-number">1.1.2</span> Level 2</a></li>
+  </ul></li>
+  <li><a href="#levels-3-to-5-substance-class-formula-or-mass-of-interest" id="toc-levels-3-to-5-substance-class-formula-or-mass-of-interest" class="nav-link" data-scroll-target="#levels-3-to-5-substance-class-formula-or-mass-of-interest"><span class="header-section-number">1.2</span> Levels 3 to 5: Substance Class, Formula or “Mass of Interest”</a>
+  <ul class="collapse">
+  <li><a href="#level-3" id="toc-level-3" class="nav-link" data-scroll-target="#level-3"><span class="header-section-number">1.2.1</span> Level 3</a></li>
+  <li><a href="#level-4" id="toc-level-4" class="nav-link" data-scroll-target="#level-4"><span class="header-section-number">1.2.2</span> Level 4</a></li>
+  <li><a href="#level-5" id="toc-level-5" class="nav-link" data-scroll-target="#level-5"><span class="header-section-number">1.2.3</span> Level 5</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GPT</h1>
+<h1 class="title">非靶检测</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>LWL </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 2, 2024</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 17, 2024</p>
+    </div>
+  </div>
     
   </div>
   
@@ -359,11 +420,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Waiting for update!!!</p>
+<section id="鉴定分级" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 鉴定分级</h1>
+<ul>
+<li><strong>目前代谢组学界达成共识的化合物鉴定等级分为5级</strong><span class="citation" data-cites="schymanski2014">(<a href="#ref-schymanski2014" role="doc-biblioref">Schymanski et al. 2014</a>)</span></li>
+</ul>
+<p><strong>Level 1：</strong>参考标准品在相同分析条件下确证的化合物，包括匹配保留时间（RT）、一级（MS1）和二级（MS2），这是唯一被认为是确证的代谢物鉴定等级<br>
+<strong>Level 2：</strong>通过文献/公共库检索所得或者可能的断裂方式推测所得化合物<br>
+<strong>Level 3：</strong>根据某类化合物的特定碎片所推断的一类化合物<br>
+<strong>Level 4：</strong>为根据质谱信息（加和离子、同位素峰、碎片信息等）推测出分子式的化合物<br>
+<strong>Level 5：</strong>为分离得到、有精确质荷比（m/z）且感兴趣的未知化合物。</p>
+<p><img src="../images/鉴定分级.jpg" class="img-fluid"><br>
+</p>
+<section id="levels-1-and-2-structure-identification" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="levels-1-and-2-structure-identification"><span class="header-section-number">1.1</span> Levels 1 and 2: Structure Identification</h2>
+<section id="level-1" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="level-1"><span class="header-section-number">1.1.1</span> Level 1</h3>
+<p><strong><em>Confirmed structure</em></strong> represents the ideal situation, where the proposed structure has been confirmed via appropriate measurement of a reference standard with MS, MS/MS and retention time matching. If possible, an orthogonal method should also be used.</p>
+</section>
+<section id="level-2" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="level-2"><span class="header-section-number">1.1.2</span> Level 2</h3>
+<p><strong><em>Probable structure</em></strong> indicates that it was possible to propose an exact structure using different evidence. For <strong>Level 2a: Library</strong> this involves matching literature or library spectrum data where the spectrum-structure match is unambiguous. Care is needed when comparing spectra recorded with different acquisition parameters (e.g., resolution, collision energy, ionization, MS level) to ensure the validity of the match and decision criteria should be clearly presented. Desirable additional evidence such as retention behavior would require, for example, a retention index for both the measured and matched spectrum, established for GC-MS but not yet sufficiently for LC-MS-based techniques. <strong>Level 2b:</strong> Diagnostic represents the case where no other structure fits the experimental information, but no standard or literature information is available for confirmation. Evidence can include diagnostic MS/MS fragments and/or ionization behavior, parent compound information and the experimental context. A good example is the hydroxylation at the tert-butyl group of irgarol (see Figure 1). Although the breakdown into (a) and (b) is useful for research purposes, for practical reporting a level 2 classification may often suffice as “probable structure” indicates the confidence in the candidate.</p>
+</section>
+</section>
+<section id="levels-3-to-5-substance-class-formula-or-mass-of-interest" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="levels-3-to-5-substance-class-formula-or-mass-of-interest"><span class="header-section-number">1.2</span> Levels 3 to 5: Substance Class, Formula or “Mass of Interest”</h2>
+<section id="level-3" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="level-3"><span class="header-section-number">1.2.1</span> Level 3</h3>
+<p><strong>Tentative candidate(s)</strong> describes a “grey zone”, where evidence exists for possible structure(s), but insufficient information for one exact structure only (e.g., positional isomers). Although there are many shades of gray (i.e., certainty) possible for many different situations, for all intents and purposes the exact structure remains speculative at level 3 (i.e., tentative in environmental, putative in metabolomics terms). Two examples are PCV TP251 from Prasse et al., (3) where the position of the hydroxylation was not unequivocal, and TP-P3 from Bijlsma et al., (4) where the position of the substituents could not be clarified (see Figure 1, substituents marked red). Further examples are top-ranked structures from in silico fragmentation of candidates from compound database searches, and/or suspects selected using additional information such as high predicted likeliness of being a transformation product, the number of references or retention behavior (e.g., Jeon et al., (2) Hug et al.&nbsp;(5)). Although sublevels could be defined, cases are often so study-specific that sublevels would “drown” in details and reduce the generic applicability. Rather, sublevels should be defined on a per-study basis where evidence supporting different proposed structures is clearly presented, especially where their identity is central to the conclusions of the study.</p>
+</section>
+<section id="level-4" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="level-4"><span class="header-section-number">1.2.2</span> Level 4</h3>
+<p><strong><em>Unequivocal molecular</em></strong> formula is possible when a formula can be unambiguously assigned using the spectral information (e.g., adduct, isotope, and/or fragment information), but insufficient evidence exists to propose possible structures. The MS/MS could be uninformative, contain interferences or not even exist. However, the formula provides some information and is worth presenting as it can be traced in future studies.</p>
+</section>
+<section id="level-5" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="level-5"><span class="header-section-number">1.2.3</span> Level 5</h3>
+<p><strong><em>Exact mass (m/z)</em></strong> can be measured in a sample and be of specific interest for the investigation, but lack information to assign even a formula. Screening and nontarget methods allow the tracing of these masses in other investigations, but the level 5 indicates that no unequivocal information about the structure or formula exists. It is even possible to record the MS/MS of a level 5 mass and save it as an “unknown” spectrum in a database. This level should only apply to a few masses of specific interest, since it would be counterproductive to label all masses in a sample as level 5. Blank measurements should be used to ensure the substance does not arise from sample preparation or measurement.</p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</section>
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-schymanski2014" class="csl-entry" role="listitem">
+Schymanski, Emma L., Junho Jeon, Rebekka Gulde, Kathrin Fenner, Matthias Ruff, Heinz P. Singer, and Juliane Hollender. 2014. <span>“Identifying Small Molecules via High Resolution Mass Spectrometry: Communicating Confidence.”</span> <em>Environmental Science &amp; Technology</em> 48 (4): 2097–98. <a href="https://doi.org/10.1021/es5002105">https://doi.org/10.1021/es5002105</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -933,6 +1037,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../lipid_method/method.html" class="pagination-link" aria-label="方法选择">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">方法选择</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../lipid_method/Oxylipins.html" class="pagination-link" aria-label="氧化脂肪酸-7500">
+        <span class="nav-page-text">氧化脂肪酸-7500</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
