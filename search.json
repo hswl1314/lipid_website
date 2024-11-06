@@ -98,7 +98,7 @@
     "href": "index.html",
     "title": "Lipid Website",
     "section": "",
-    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. n.d. “Lipid Website.” https://hswl1314.github.io/lipid_website/."
+    "text": "Introduction\nThis is a lipid website made by Dr. Wanli Liang(Liang 2019).\n\n\n\n\n\n\nWarning\n\n\n\nThe content of this website is for personal learning purposes only\n\n\n\nTo learn more about Lipids websites visit Lipids maps, LipidBank\nAnalysis to visit MetaboAnalyst，molecular mass，HMDB，ACT，SingleCellBase\nProtein to visit Uniport, The human protein atlas, String\nSelleck to molarity calculator\n\n\n\n\n\n\n\ntip\n\n\n\nIf you have any questions, you can contact the author through GitHub\n\n\n\n\nReferences\n\n\nLiang, ZW Kevin. 2019. “Solid Lipid Nanoparticle Induced Apoptosis of Macrophages via a Mitochondrial-Dependent Pathway in Vitro and in Vivo.” International Journal of Nanomedicine Volume 14 (May): 3283–95. https://doi.org/10.2147/ijn.s200395.\n\n\n\n\n\n Back to topCitationBibTeX citation:@online{liang,\n  author = {Liang, Wanli},\n  title = {Lipid {Website}},\n  url = {https://hswl1314.github.io/lipid_website/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nLiang, Wanli. n.d. “Lipid Website.” https://hswl1314.github.io/lipid_website/."
   },
   {
     "objectID": "data_analysis/pre-data.html",
@@ -288,7 +288,7 @@
     "href": "lipid_method/Oxidized_Phospholipidomics.html",
     "title": "Oxidized Phospholipidomics",
     "section": "",
-    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
+    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复2次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL 乙腈水溶液（95:5）复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定，如需测脂质组学则把1.5ml上清液分两份吹干\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
     "crumbs": [
       "Home",
       "U3000",
@@ -300,7 +300,7 @@
     "href": "lipid_method/Oxidized_Phospholipidomics.html#sec-Oxidized_Phospholipidomics",
     "title": "Oxidized Phospholipidomics",
     "section": "",
-    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
+    "text": "100 μL血浆/血清 + 300 μL H2O+960 μL MTBE/MeOH（5:2；v/v）\n\n\n\n\n\n\n\ntip\n\n\n\n15:0 PE母液浓度为20 μM。若复溶体积为100 μL，加入5 μL的15:0 PE，若复溶体积为200 μL，则加入10 μL的15:0 PE\n\n\n\n涡旋60 s，超声处理10分钟（4°C水浴），4°C，3000 rpm离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL MTBE(2次)进行再萃取\n\n第二步共重复2次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL 乙腈水溶液（95:5）复溶\n\n\n\n\n\n\n\ntip\n\n\n\n复溶的量根据自己实验需求决定，如需测脂质组学则把1.5ml上清液分两份吹干\n\n\n\n\n\n\n将细胞（5*106个细胞/样品）与400 μL水混合，然后涡旋30秒，在液氮中孵育1分钟。在室温下解冻并超声处理10分钟。重复冻融循环三次\n\n在13000 rpm和4°C下离心15分钟，然后取10 μL上清液，使用BCA试剂盒测量蛋白质浓度\n\n向样品中加入960 μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n重复第四步3次，合并上清液，然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH\n\n\n\n\n\n将组织称重并在H2O（200 μL H2O，约10mg组织）中匀浆三个循环（每个循环：5500 rpm，20 s，重复三次）\n\n在13000 rpm和4°C下离心15分钟；取10 μL上清液，用H2O稀释10-20倍，用BCA试剂盒测定蛋白质浓度\n\n200 μL均质组织溶液加200 μL H2O+960μL MTBE/MeOH（5:2；v/v）\n\n涡旋60 s，超声处理10分钟（4°C水浴），在3000 rpm和4°C下离心15分钟，然后取上清液（500 μL）。在剩余溶液中加入500 μL甲基叔丁基醚\n\n第四步共重复3次，合并上清液（1.5 mL），然后用真空浓缩器在4°C下蒸发至干\n\n重组：100 μL MeOH",
     "crumbs": [
       "Home",
       "U3000",
@@ -348,7 +348,7 @@
     "href": "lipid_method/Untargeted_lipidomics.html",
     "title": "Untargeted lipidomics",
     "section": "",
-    "text": "提取方法请参考氧化磷脂",
+    "text": "提取方法请参考氧化磷脂\n\n\n\n\n\n\ntip\n\n\n\n脂质组学复溶用甲醇",
     "crumbs": [
       "Home",
       "U3000",
@@ -360,7 +360,7 @@
     "href": "lipid_method/Untargeted_lipidomics.html#提取",
     "title": "Untargeted lipidomics",
     "section": "",
-    "text": "提取方法请参考氧化磷脂",
+    "text": "提取方法请参考氧化磷脂\n\n\n\n\n\n\ntip\n\n\n\n脂质组学复溶用甲醇",
     "crumbs": [
       "Home",
       "U3000",
